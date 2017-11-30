@@ -27,7 +27,7 @@ logging.basicConfig(level=logging.DEBUG,
 # In[2]:
 
 
-all_data = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics_by_Wealth_Quintile.xlsx', encoding='utf8')
+all_data = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics_by_Wealth_Quintile.xlsx', encoding='utf8').drop_duplicates(inplace=True)
 )
 data_cnt = pd.read_csv('all.csv', encoding='utf8')
 
@@ -59,7 +59,7 @@ def Dropempt(data, years_c):
     return data.drop('index', axis=1)
     
 def Clearing(data):
-    years_c = [item for ind, item in enumerate(np.array(all_data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name']]
+    years_c = [item for ind, item in enumerate(np.array(data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name']]
     #if data['Country Code'].get_value(len(data)-5) == np.nan:
         #data=data.drop(data.index[[range(len(data)-5, len(data))]]).reset_index()
     data = Dropempt(Fillnan(data, years_c), years_c)
@@ -230,13 +230,13 @@ def Correlation(data_r,regions=[], where='region', name='Damn'):
 def check_vec(X, Y, years_c, procent=1):
     if procent!=1:
         for i in range(len(X)):
-            if (X[i]==np.nan or Y[i]==np.nan) and (len(X)>=len(years_c)*procent or len(Y)>=len(years_c)*procent):
+            if (X[i]==np.nan or Y[i]==np.nan) and ((len(X)>=len(years_c)*procent and len(Y)>=len(years_c)*procent)):
                 del X[i]
                 del Y[i]
-        return X,Y
+        return np.array(X),np.array(Y)
     
     elif (np.nan not in X and np.nan not in Y):
-        return X,Y
+        return np.array(X),np.array(Y)
     
     else:
         return [],[]
@@ -247,7 +247,6 @@ def file_making(chlst, dir_name):
         if name in os.listdir(dir_name):
             return True
             
-
 def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations'):
     
     #вход в функцию и начало отсчета.
@@ -259,7 +258,7 @@ def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations
     rez=pd.DataFrame() 
     
     #записываем года и коды из датасета и регион
-    years_c = [item for ind, item in enumerate(np.array(data1.columns)) if ind not in (range(0,4)) and item !='Mean' and item!='Region']
+    years_c = [item for ind, item in enumerate(np.array(data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name'] and item !='Mean' and item!='Region']
     codes = data['Series Code'].dropna().unique()
     region = Make_region(data[data['Country Code']==country]['Country Name'].as_matrix()[0], 'sub-region')
     
@@ -294,10 +293,10 @@ def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations
                     
                     #исходя из процентов выбрасываем нан, либо возвращаем пустые массивы.
                     X,Y = check_vec(X[0],Y[0], years_c, procent)
-                    
+
                     #проверяем чтобы оклонение было хорошее(чтобы не получилось, что данные лежат в одной точке, тогда корреляции не получается.)
                     #заодно чекаем пустоту массивов.
-                    if (X.std()>0.7 and Y.std()>0.7) and (len(X)!=0 and len(Y)!=0):
+                    if (len(X)!=0 and len(Y)!=0) and (np.std(X)>0.7 and np.std(Y)>0.7):
                         #корреляция пирсона
                         tmp = sts.pearsonr(X,Y)
                         
@@ -332,15 +331,14 @@ def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations
     
     logging.debug('Exiting')
 
-
-# C_corr(all_data)
+#C_corr(all_data)
 
 # In[ ]:
 
 
 if __name__== '__main__':
     pool = Pool(processes=int(sys.argv[1]))
-    func = partial(C_corr, all_data, procent=100, reg=True)
+    func = partial(C_corr, all_data, procent=60, reg=True)
     pool.map(func, all_data['Country Code'].unique())
     pool.close()
     pool.join()
