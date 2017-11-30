@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[20]:
 
 
 import pandas as pd
@@ -27,12 +27,8 @@ logging.basicConfig(level=logging.DEBUG,
 # In[2]:
 
 
-data1 = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', encoding = 'utf8')
-
-data2 = pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', encoding='utf8')
-
-data3 = pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', encoding='utf8')
-
+all_data = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics_by_Wealth_Quintile.xlsx', encoding='utf8')
+)
 data_cnt = pd.read_csv('all.csv', encoding='utf8')
 
 
@@ -46,7 +42,7 @@ class Analyst:
             self.data = data
 
 
-# In[4]:
+# In[12]:
 
 
 def Fillnan(data, years_c):
@@ -63,9 +59,9 @@ def Dropempt(data, years_c):
     return data.drop('index', axis=1)
     
 def Clearing(data):
-    years_c = [item for ind, item in enumerate(np.array(data.columns)) if ind not in (range(0,4))]
-    if data['Country Code'].get_value(len(data)-5) == np.nan:
-        data=data.drop(data.index[[range(len(data)-5, len(data))]]).reset_index()
+    years_c = [item for ind, item in enumerate(np.array(all_data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name']]
+    #if data['Country Code'].get_value(len(data)-5) == np.nan:
+        #data=data.drop(data.index[[range(len(data)-5, len(data))]]).reset_index()
     data = Dropempt(Fillnan(data, years_c), years_c)
     return data
 
@@ -95,24 +91,16 @@ def Sorting(data, reg='region'):
         return data
 
 
-# In[6]:
+# In[13]:
 
 
-data1 = Clearing(data1)
-#заметил много шума.
-del data1['2016 [YR2016]']
-
-data2 = Clearing(data2)
-del data2['2001 [YR2001]']
-
-data3 = Clearing(data3)
-del data3['2016 [YR2016]']
+all_data = Clearing(all_data)
 
 
 # Эвристика
 # Преимущество данного подхода в том, что мы не потеряем единственные значения у некоторых стран. Но при этом, отразим актуальность, а значит и реальность.
 
-# In[7]:
+# In[14]:
 
 
 def data_inc(data):
@@ -133,7 +121,7 @@ def R_mean(data):
 
 # Чувствую себя отвратительно за такой код. Доделаю до конца и поправлю. 
 
-# In[8]:
+# In[15]:
 
 
 #data1 = R_mean(data_inc(data1))
@@ -143,7 +131,7 @@ def R_mean(data):
 
 # Вот тут буду коррелировать, строить графики и пр
 
-# In[9]:
+# In[16]:
 
 
 def podshape(t1,t2):
@@ -203,7 +191,7 @@ def Correlation(data_r,regions=[], where='region', name='Damn'):
         print (str(region))
 
 
-# In[10]:
+# In[17]:
 
 
 #data_cnt['sub-region'].unique()
@@ -226,18 +214,6 @@ def Correlation(data_r,regions=[], where='region', name='Damn'):
 
 # Общая таблица
 
-# In[11]:
-
-
-all_data = pd.DataFrame().append(data1).append(data2).append(data2)
-
-
-# In[12]:
-
-
-years_c = [item for ind, item in enumerate(np.array(data1.columns)) if ind not in (range(0,4)) and item !='Mean']
-
-
 # Correlation(all_data, where='region', name='all')
 # 
 # Correlation(all_data, regions=[u'Western Africa', u'Northern America',
@@ -248,7 +224,7 @@ years_c = [item for ind, item in enumerate(np.array(data1.columns)) if ind not i
 # 
 # Продолжаем кодить, на этот раз смотрим по стране без среднего.
 
-# In[58]:
+# In[21]:
 
 
 def check_vec(X, Y, years_c, procent=1):
@@ -351,17 +327,13 @@ def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations
     currentMonth = datetime.datetime.now().month
     
     f = open((str(currentDay)+'.'+str(currentMonth)+'.txt'),'w')
-    f.write(('\n'+'Time elapsed:'+str(datetime.datetime.now() - start_time)+' in '+country + '\n Time now:'+datetime.datetime.now()))
+    f.write(('\n'+'Time elapsed:'+str(datetime.datetime.now() - start_time)+' in '+country + '\n Time now:'+str(datetime.datetime.now())))
     f.close()
     
     logging.debug('Exiting')
 
 
-# In[57]:
-
-
-#C_corr(all_data)
-
+# C_corr(all_data)
 
 # In[ ]:
 
