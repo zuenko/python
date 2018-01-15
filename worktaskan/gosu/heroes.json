@@ -1,5 +1,4 @@
-{
-    "heroes": [
+[
         {
             "name": "antimage",
             "id": 1,
@@ -561,4 +560,3 @@
             "localized_name": "Arc Warden"
         }
     ]
-}
