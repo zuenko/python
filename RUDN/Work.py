@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[20]:
+# In[1]:
 
 
 import pandas as pd
@@ -22,53 +22,40 @@ logging.basicConfig(level=logging.DEBUG,
                     )
 
 
-# Загружаем выборки.
-
 # In[2]:
 
 
-all_data = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', encoding='utf8')).append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics_by_Wealth_Quintile.xlsx', encoding='utf8').drop_duplicates(inplace=True)
-)
-data_cnt = pd.read_csv('all.csv', encoding='utf8')
-
-
-# Очищаем данные от больших пропусков, точек и пр.
-
-# In[3]:
-
-
-class Analyst:
-       def __init__(self, data, width=100, height=100):
-            self.data = data
-
-
-# In[12]:
-
-
-def Fillnan(data, years_c):
+def fillnan(data, years_c):
     for name in years_c:
+        #заменяем троеточия
         data[name] = data[name].apply(lambda x: np.nan if x==('..') else float(x))
+
     return data
-    
-def Dropempt(data, years_c):
+
+def dropempt(data, years_c):
+    data = fillnan(data, years_c)
     tmp=[]
     for ind, item in enumerate(data[years_c].as_matrix()):
-        if np.nansum(item) == 0:
+        # если non_nan элементов меньше чем (размер вектора)-7, то дропаем
+
+        if (np.count_nonzero(~np.isnan(item))) <= len(years_c)-7:
+            #print (np.nansum(item), item)
             tmp.append(ind)
+
     data = data.drop(data.index[tmp]).reset_index()
     return data.drop('index', axis=1)
-    
+
 def Clearing(data):
     years_c = [item for ind, item in enumerate(np.array(data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name']]
-    #if data['Country Code'].get_value(len(data)-5) == np.nan:
-        #data=data.drop(data.index[[range(len(data)-5, len(data))]]).reset_index()
-    data = Dropempt(Fillnan(data, years_c), years_c)
+    print ('Before clear:', len(data))
+
+    data = dropempt(data, years_c)
+
+    print ('After clear:', len(data))
     return data
 
 
-# Сортировка по регионам.
-
-# In[5]:
+# In[3]:
 
 
 def Make_region(code, reg='region'):
@@ -76,7 +63,7 @@ def Make_region(code, reg='region'):
     if code in data_cnt['name'].values:
         #print code
         name = (data_cnt['name'][data_cnt['name'] == code].index.tolist())[0]
-        return data_cnt[reg].get_value(name)
+        return data_cnt[reg].at[name]
     else:
         return np.nan
 
@@ -91,140 +78,7 @@ def Sorting(data, reg='region'):
         return data
 
 
-# In[13]:
-
-
-all_data = Clearing(all_data)
-
-
-# Эвристика
-# Преимущество данного подхода в том, что мы не потеряем единственные значения у некоторых стран. Но при этом, отразим актуальность, а значит и реальность.
-
-# In[14]:
-
-
-def data_inc(data):
-    magic = 0.08
-    for ind, item in enumerate(np.array(data.columns)):
-        if ind not in (range(0,4)):
-        #попробую с интерполяцией
-            data[item] = data[item].apply(lambda x: ((ind-2)*magic)*x if ((ind-2)*magic)>1 else x).interpolate()
-    return data
-
-def R_mean(data):
-    if ('Mean' not in data.columns) and ('Region' not in data.columns):
-        data['Mean']= data[[item for ind, item in enumerate(np.array(data.columns)) if ind not in (range(0,4))]].apply(lambda x: np.nanmean(x), axis = 1)
-    elif ('Region' in data.columns):
-        data['Mean']= data[[item for ind, item in enumerate(np.array(data.columns)) if ind not in [(range(0,4)), len(data.columns)-1]]].apply(lambda x: np.nanmean(x), axis = 1)
-    return data
-
-
-# Чувствую себя отвратительно за такой код. Доделаю до конца и поправлю. 
-
-# In[15]:
-
-
-#data1 = R_mean(data_inc(data1))
-#data2 = R_mean(data_inc(data2))
-#data3 = R_mean(data_inc(data3))
-
-
-# Вот тут буду коррелировать, строить графики и пр
-
-# In[16]:
-
-
-def podshape(t1,t2):
-    cntrs1 = t1['Country Name'].tolist()
-    cntrs2 = t2['Country Name'].tolist()
-    x, y = [],[]
-    if len(t1)!=len(t2):
-        for contr in cntrs1:
-            if contr in cntrs2:
-                x.append(t1['Mean'][t1['Country Name']== contr].as_matrix()[0])
-                y.append(t2['Mean'][t2['Country Name']== contr].as_matrix()[0])
-        return x, y
-    else:
-        return t1['Mean'].as_matrix(), t2['Mean'].as_matrix()
-
-def Shaping(t1,t2): 
-    if len(t1)<len(t2):
-        return podshape(t1,t2)
-    elif len(t1)>len(t2):
-        return podshape(t1,t2)
-    elif len(t1)==0 or len(t1)==0:
-        return True
-    else:
-        return t1['Mean'].as_matrix(), t2['Mean'].as_matrix()
-    
-def Correlation(data_r,regions=[], where='region', name='Damn'):
-    data = data_r.copy()
-    if where == 'region':
-        data = Sorting(data)
-    else:
-        data = Sorting(data, where)
-        
-    if len(regions)==0:
-        regions = data['Region'].dropna().unique()
-    
-    codes = data['Series Code'].dropna().unique()
-    rez=pd.DataFrame()    
-    
-    tmp = []
-    
-    for region in regions:
-        for code1 in codes:
-            for code2 in codes:
-                tmp = []
-                Sh = Shaping(data[['Mean', 'Country Name']][data['Series Code']==code1][data['Region']==region], data[['Mean', 'Country Name']][data['Series Code']==code2][data['Region']==region])
-                if Sh!=True:
-                    tmp = sts.pearsonr(Sh[0],Sh[1])
-                    
-                if len(tmp)!=0 and np.abs(tmp[0])>0.099:
-                    rez = rez.append(pd.DataFrame(tmp[0], columns=[code1+':'+region], index=[code2+':'+region+':'+'cor-value']))
-                    rez = rez.append(pd.DataFrame(tmp[1], columns=[code1+':'+region], index=[code2+':'+region+':'+'p-value']))
-                    rez = rez.groupby(rez.index).first()
-        
-        filename = name+'.Corr_in_'+str(region)+'.xlsx'
-        rez.to_excel(filename, encoding='utf-8')
-        rez = pd.DataFrame()
-        print (str(region))
-
-
-# In[17]:
-
-
-#data_cnt['sub-region'].unique()
-
-
-# Correlation(data2, where='region', name='data2')
-# 
-# Correlation(data2, where='sub-region', name='data2')
-
-# Correlation(data3, where='region', name='data3')
-# 
-# Correlation(data3, where='sub-region', name='data3')
-
-# Correlation(data1, where='region', name='data1')
-# 
-# Correlation(data1, regions =[u'Western Europe', u'Eastern Europe',
-#        u'Central America', u'Western Africa', u'Northern America',
-#        u'Southern Africa', u'South-Eastern Asia', u'Eastern Africa',
-#        u'Eastern Asia', u'Melanesia', u'Micronesia', u'Central Asia'], where='sub-region', name='data1')
-
-# Общая таблица
-
-# Correlation(all_data, where='region', name='all')
-# 
-# Correlation(all_data, regions=[u'Western Africa', u'Northern America',
-#        u'Southern Africa', u'South-Eastern Asia', u'Eastern Africa',
-#        u'Eastern Asia', u'Melanesia', u'Micronesia', u'Central Asia'], where='sub-region', name='all')
-
-# Какое же это фиаско
-# 
-# Продолжаем кодить, на этот раз смотрим по стране без среднего.
-
-# In[21]:
+# In[7]:
 
 
 def check_vec(X, Y, years_c, procent=1):
@@ -234,63 +88,63 @@ def check_vec(X, Y, years_c, procent=1):
                 del X[i]
                 del Y[i]
         return np.array(X),np.array(Y)
-    
+
     elif (np.nan not in X and np.nan not in Y):
         return np.array(X),np.array(Y)
-    
+
     else:
         return [],[]
-    
+
 def file_making(chlst, dir_name):
     for name in chlst:
         #print (name, os.listdir(dir_name))
         if name in os.listdir(dir_name):
             return True
-            
-def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations'):
-    
+
+def C_corr(data_r, country='RUS', procent=100, reg=True, dir_name = 'Correlations'):
+
     #вход в функцию и начало отсчета.
     logging.debug('Starting')
     start_time = datetime.datetime.now()
-    
+
     #копируем, и определяем результрующий датафрейм.
     data = data_r.copy()
-    rez=pd.DataFrame() 
-    
+    rez=pd.DataFrame()
+
     #записываем года и коды из датасета и регион
     years_c = [item for ind, item in enumerate(np.array(data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name'] and item !='Mean' and item!='Region']
     codes = data['Series Code'].dropna().unique()
     region = Make_region(data[data['Country Code']==country]['Country Name'].as_matrix()[0], 'sub-region')
-    
+
     filenames = [('deep'+'.Corr_in_'+str(country)+'.xlsx'),('deep'+'.Corr_in_'+str(country)+'.'+str(region)+'.xlsx'),('deep'+'.Corr_in_'+str(country)+'NONE.xlsx')]
-    
+
     #делим проценты и опр. счетчик операций.
     procent = procent/100
     k=0
-    
+
     #проверка директории
     if dir_name not in os.listdir():
         os.mkdir(dir_name)
-    
+
     #проверка на наличие файла.
     if file_making(filenames, dir_name)==True:
         logging.debug('File exist!')
         return 0
-    
+
     for ind , code1 in enumerate(codes):
         for jnd, code2 in enumerate(codes):
             k+=1
-            
+
             #идем ниже диагонали
             if ind>jnd:
                 X = data[(data['Country Code']==country) & (data['Series Code']==code1)][years_c].as_matrix()
                 Y = data[(data['Country Code']==country) & (data['Series Code']==code2)][years_c].as_matrix()
-                
+
                 logging.debug(str(round((k*100)/(len(codes)**2),2))+'% in '+country)
-                
+
                 #проверяем наличие данных в двух векторах.
                 if len(X)!=0 and len(Y)!=0:
-                    
+
                     #исходя из процентов выбрасываем нан, либо возвращаем пустые массивы.
                     X,Y = check_vec(X[0],Y[0], years_c, procent)
 
@@ -299,17 +153,17 @@ def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations
                     if (len(X)!=0 and len(Y)!=0) and (np.std(X)>0.7 and np.std(Y)>0.7):
                         #корреляция пирсона
                         tmp = sts.pearsonr(X,Y)
-                        
+
                         #проверяем на пустоту корреляцию(малоли), а также, отсекаем малленькие корреляции.
                         if len(tmp)!=0 and np.abs(tmp[0])>0.099:
-                            
+
                             #Заполняем таблицу, (тут оптимизировать.)
                             rez = rez.append(pd.DataFrame(tmp[0], columns=[code1+':'+country], index=[code2+':'+country+':'+'cor-value']))
                             rez = rez.append(pd.DataFrame(tmp[1], columns=[code1+':'+country], index=[code2+':'+country+':'+'p-value']))
                             rez = rez.groupby(rez.index).first()
-    
-                     
-    
+
+
+
     #нужно ли указывать регион или сабрегион
     if reg==False:
         rez.to_excel(dir_name + '/' + filenames[0], encoding='utf-8')
@@ -317,33 +171,110 @@ def C_corr(data_r, country='RUS',procent=100, reg=True, dir_name = 'Correlations
         rez.to_excel(dir_name + '/' + filenames[1], encoding='utf-8')
     else:
         rez.to_excel(dir_name + '/' + filenames[2], encoding='utf-8')
-    
+
     #время рассчета выводим и записываем в лог.
     print ('Time elapsed:', datetime.datetime.now() - start_time)
     print (country)
-    
+
     currentDay = datetime.datetime.now().day
     currentMonth = datetime.datetime.now().month
-    
-    f = open((str(currentDay)+'.'+str(currentMonth)+'.txt'),'w')
-    f.write(('\n'+'Time elapsed:'+str(datetime.datetime.now() - start_time)+' in '+country + '\n Time now:'+str(datetime.datetime.now())))
+    currentYear = datetime.datetime.now().year
+
+    f = open((str(currentDay)+'.'+str(currentMonth)+'.'+str(currentYear)+'.txt'), 'a+')
+    log = f.read()+(('\n'+'Time elapsed:'+str(datetime.datetime.now() - start_time)+' in '+country + '\n Time now:'+str(datetime.datetime.now())))
+    f.write(log)
     f.close()
-    
+
     logging.debug('Exiting')
 
-#C_corr(all_data)
+
+# In[26]:
+
+
+def D_maker(data,c=0.5, p=0.01, m=1, s=u'Корреляция'):
+    rez=[]
+    for index in data.index:
+        for column in data.columns:
+            i_tmp = index.split(':')
+            c_tmp = column.split(':')
+            value=[]
+
+            if i_tmp[2]!=u'p-value' and i_tmp[0]!=c_tmp[0]:
+                value.append([data.get_value(index=index, col=column),data.get_value(index=i_tmp[0]+':'+i_tmp[1]+':p-value', col=column)])
+
+                if abs(value[0][0])>c and value[0][1]<p and abs(value[0][0])<m:
+
+                    if [defen[defen['Code']==c_tmp[0]]['Indicator Name'].tolist()[0], defen[defen['Code']==i_tmp[0]]['Indicator Name'].tolist()[0], value[0][0]] not in rez:
+                        rez.append([defen[defen['Code']==i_tmp[0]]['Indicator Name'].tolist()[0], defen[defen['Code']==c_tmp[0]]['Indicator Name'].tolist()[0], value[0][0]])
+
+                    #Degbug
+                    #return rez
+    if len(rez) == 0:
+        rez = [['EMTY CELL', "EMPTY CELL", 696]]
+    #print(rez)
+    db = pd.DataFrame().append(rez)
+    #print (db)
+    db.columns = [u'Первый признак', u'Второй признак', u'Корреляция']
+    db = check(db.sort_values(by=[s]))
+
+    #print (len(db))
+    return db
+
+def check(data):
+    rez=[]
+    data = data.sort_values(by=[u'Корреляция'])
+    tmp = data.as_matrix()
+    for i, row in enumerate(tmp):
+        if i<len(tmp)-1:
+            if row[2] != tmp[i+1][2] and row[1] != tmp[i+1][0] and row[0] != tmp[i+1][1]:
+                rez.append(row)
+    if len(rez)!=0:
+        db = pd.DataFrame().append(rez)
+        db.columns = [u'Первый признак', u'Второй признак', u'Корреляция']
+        return db.reset_index()
+    else:
+        print('what?')
+        return data
+
+
+def to_ex(data, filename):
+    data[[u'Первый признак', u'Второй признак', u'Корреляция']].sort_values(by=u'Первый признак').to_excel(filename, sheet_name=filename.split('.')[1], index = False)
+
+def Sumup(d_name):
+    #проверка директории
+    if 'Conclusion' not in os.listdir():
+        os.mkdir('Conclusion')
+
+    files = os.listdir(d_name)
+    rez = pd.DataFrame(columns = [u'Первый признак', u'Второй признак', u'Корреляция'])
+    for name in files:
+        n_count = name.split('.')[1].split('_')[2]
+        filename = name.split('.')[2]+'.'+n_count+'.Con.xlsx'
+        print (n_count)
+        if filename not in os.listdir('Conclusion'):
+            print('inside!', d_name+'/'+filename)
+            data = pd.read_excel(d_name+'/'+name ,encoding = 'utf8')
+            if len(data)>4:
+                to_ex(D_maker(data), d_name+'/'+filename)
+
 
 # In[ ]:
 
 
 if __name__== '__main__':
-    pool = Pool(processes=int(sys.argv[1]))
-    func = partial(C_corr, all_data, procent=60, reg=True)
-    pool.map(func, all_data['Country Code'].unique())
+    df = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx',
+                         encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx',
+                                                                                                                  encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx',
+                                                                                                                  encoding='utf8')).append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics_by_Wealth_Quintile.xlsx',
+                                                                                                                  encoding='utf8'))
+    data_cnt = pd.read_csv('all.csv', encoding='utf8')
+    df = Clearing(df)
+    defen = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', sheetname=1, encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', sheetname=1, encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', sheetname=1, encoding='utf8'))
+
+    pool = Pool(processes=11)
+    func = partial(C_corr, df, procent=80, reg=True)
+    pool.map(func, df['Country Code'].unique())
+    Sumup('Correlations')
     pool.close()
     pool.join()
 
-
-# tmp1, tmp2 = all_data[(all_data['Series Name'] == 'Improved sanitation facilities (% of population with access)') & (all_data['Country Code']=='RUS')][years_c].as_matrix()[0], all_data[(all_data['Series Code'] == 'SI.POV.NAHC') & (all_data['Country Code']=='RUS')][years_c].as_matrix()[0]
-
-# Make_region('Angola')
