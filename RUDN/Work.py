@@ -269,7 +269,7 @@ if __name__== '__main__':
                                                                                                                   encoding='utf8'))
     data_cnt = pd.read_csv('all.csv', encoding='utf8')
     df = Clearing(df)
-    defen = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', sheetname=1, encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', sheetname=1, encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', sheetname=1, encoding='utf8'))
+    defen = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', sheet_name=1, encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', sheet_name=1, encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', sheet_name=1, encoding='utf8'))
 
     pool = Pool(processes=11)
     func = partial(C_corr, df, procent=80, reg=True)
