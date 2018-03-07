@@ -14,8 +14,10 @@ import time
 import datetime
 
 import logging
+from tqdm import tqdm
 from multiprocessing import Pool
 from functools import partial
+
 
 logging.basicConfig(level=logging.DEBUG,
                     format='[%(levelname)s] %(message)s',
@@ -99,7 +101,8 @@ def C_corr(data_r, country='RUS', procent=100, reg=True, dir_name = 'Correlation
     start_time = datetime.datetime.now()
 
     #копируем, и определяем результрующий датафрейм.
-    data = data_r.copy()
+    data = data_r.loc[data_r['Country Code'] == country]
+    del data_r
     rez=pd.DataFrame()
 
     #записываем года и коды из датасета и регион
@@ -120,18 +123,25 @@ def C_corr(data_r, country='RUS', procent=100, reg=True, dir_name = 'Correlation
     #проверка на наличие файла.
     if file_making(filenames, dir_name)==True:
         logging.debug('File exist!')
+        if reg==False:
+            Sumup(dir_name, filenames[0])
+        elif region!=np.nan:
+            Sumup(dir_name, filenames[1])
+        else:
+            Sumup(dir_name, filenames[2])
         return 0
 
-    for ind , code1 in enumerate(codes):
+    #logging.debug(country+':')
+    for ind , code1 in tqdm(enumerate(codes), desc = country, total = len(codes)):
         for jnd, code2 in enumerate(codes):
             k+=1
 
             #идем ниже диагонали
             if ind>jnd:
-                X = data[(data['Country Code']==country) & (data['Series Code']==code1)][years_c].as_matrix()
-                Y = data[(data['Country Code']==country) & (data['Series Code']==code2)][years_c].as_matrix()
+                X = data.loc[(data['Country Code']==country) & (data['Series Code']==code1)][years_c].as_matrix()
+                Y = data.loc[(data['Country Code']==country) & (data['Series Code']==code2)][years_c].as_matrix()
 
-                logging.debug(str(round((k*100)/(len(codes)**2),2))+'% in '+country)
+                #logging.debug(str(round((k*100)/(len(codes)**2),2))+'% in '+country)
 
                 #проверяем наличие данных в двух векторах.
                 if len(X)!=0 and len(Y)!=0:
@@ -158,10 +168,13 @@ def C_corr(data_r, country='RUS', procent=100, reg=True, dir_name = 'Correlation
     #нужно ли указывать регион или сабрегион
     if reg==False:
         rez.to_excel(dir_name + '/' + filenames[0], encoding='utf-8')
+        Sumup(dir_name, filenames[0])
     elif region!=np.nan:
         rez.to_excel(dir_name + '/' + filenames[1], encoding='utf-8')
+        Sumup(dir_name, filenames[1])
     else:
         rez.to_excel(dir_name + '/' + filenames[2], encoding='utf-8')
+        Sumup(dir_name, filenames[2])
 
     #время рассчета выводим и записываем в лог.
     print ('Time elapsed:', datetime.datetime.now() - start_time)
@@ -231,22 +244,20 @@ def check(data):
 def to_ex(data, filename):
     data[[u'Первый признак', u'Второй признак', u'Корреляция']].sort_values(by=u'Первый признак').to_excel(filename, sheet_name=filename.split('.')[1], index = False)
 
-def Sumup(d_name):
+def Sumup(d_name, name):
     #проверка директории
     if 'Conclusion' not in os.listdir():
         os.mkdir('Conclusion')
 
-    files = os.listdir(d_name)
     rez = pd.DataFrame(columns = [u'Первый признак', u'Второй признак', u'Корреляция'])
-    for name in files:
-        n_count = name.split('.')[1].split('_')[2]
-        filename = name.split('.')[2]+'.'+n_count+'.Con.xlsx'
-        print (n_count)
-        if filename not in os.listdir('Conclusion'):
-            print('inside!', d_name+'/'+filename)
-            data = pd.read_excel(d_name+'/'+name ,encoding = 'utf8')
-            if len(data)>4:
-                to_ex(D_maker(data), d_name+'/'+filename)
+    n_count = name.split('.')[1].split('_')[2]
+    filename = name.split('.')[2]+'.'+n_count+'.Con.xlsx'
+    print (n_count)
+    if filename not in os.listdir('Conclusion'):
+        print('inside!', d_name+'/'+filename)
+        data = pd.read_excel(d_name+'/'+name ,encoding = 'utf8')
+        if len(data)>4:
+            to_ex(D_maker(data), 'Conclusion'+'/'+filename)
 
 
 # In[ ]:
@@ -262,10 +273,9 @@ if __name__== '__main__':
     df = Clearing(df)
     defen = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', sheet_name=1, encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', sheet_name=1, encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', sheet_name=1, encoding='utf8'))
 
-    pool = Pool(processes=-1)
+    pool = Pool(processes=11)
     func = partial(C_corr, df, procent=80, reg=True)
     pool.map(func, df['Country Code'].unique())
-    Sumup('Correlations')
     pool.close()
     pool.join()
 
