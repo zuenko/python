@@ -34,16 +34,7 @@ def fillnan(data, years_c):
 
 def dropempt(data, years_c):
     data = fillnan(data, years_c)
-    tmp=[]
-    for ind, item in enumerate(data[years_c].as_matrix()):
-        # если non_nan элементов меньше чем (размер вектора)-7, то дропаем
-
-        if (np.count_nonzero(~np.isnan(item))) <= len(years_c)-7:
-            #print (np.nansum(item), item)
-            tmp.append(ind)
-
-    data = data.drop(data.index[tmp]).reset_index()
-    return data.drop('index', axis=1)
+    return data.dropna(thresh=8)
 
 def Clearing(data):
     years_c = [item for ind, item in enumerate(np.array(data.columns)) if item not in ['Country Name', 'Country Code','Series Code','Series Name']]
@@ -271,7 +262,7 @@ if __name__== '__main__':
     df = Clearing(df)
     defen = pd.read_excel('Data_Extract_From_Gender_Statistics.xlsx', sheet_name=1, encoding = 'utf8').append(pd.read_excel('Data_Extract_From_Health_Nutrition_and_Population_Statistics.xlsx', sheet_name=1, encoding='utf8')).append(pd.read_excel('Data_Extract_From_Millennium_Development_Goals.xlsx', sheet_name=1, encoding='utf8'))
 
-    pool = Pool(processes=11)
+    pool = Pool(processes=-1)
     func = partial(C_corr, df, procent=80, reg=True)
     pool.map(func, df['Country Code'].unique())
     Sumup('Correlations')
