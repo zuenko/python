@@ -208,8 +208,8 @@ def D_maker(data,c=0.5, p=0.01, m=1, s=u'Корреляция'):
 
                 if abs(value[0][0])>c and value[0][1]<p and abs(value[0][0])<m:
 
-                    if [defen[defen['Code']==c_tmp[0]]['Indicator Name'].tolist()[0], defen[defen['Code']==i_tmp[0]]['Indicator Name'].tolist()[0], value[0][0]] not in rez:
-                        rez.append([defen[defen['Code']==i_tmp[0]]['Indicator Name'].tolist()[0], defen[defen['Code']==c_tmp[0]]['Indicator Name'].tolist()[0], value[0][0]])
+                    if [defen[defen['Code']==c_tmp[0]]['Indicator Name'].tolist()[0], defen[defen['Code']==i_tmp[0]]['Indicator Name'].tolist()[0], round(value[0][0], 4)] not in rez:
+                        rez.append([defen[defen['Code']==i_tmp[0]]['Indicator Name'].tolist()[0], defen[defen['Code']==c_tmp[0]]['Indicator Name'].tolist()[0], round(value[0][0], 4)])
 
                     #Degbug
                     #return rez
