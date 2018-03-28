@@ -1,0 +1,1039 @@
+0,"Access to anti-retroviral drugs, female (%)"
+1,"Access to anti-retroviral drugs, male (%)"
+2,"Adjusted net enrollment rate, primary, female (% of primary school age children)"
+3,"Adjusted net enrollment rate, primary, male (% of primary school age children)"
+4,"Adolescent fertility rate (births per 1,000 women ages 15-19)"
+5,"Age at first marriage, female"
+6,"Age at first marriage, male"
+7,Age dependency ratio (% of working-age population)
+8,"Age population, age 0, female, interpolated"
+9,"Age population, age 0, male, interpolated"
+10,"Age population, age 01, female, interpolated"
+11,"Age population, age 01, male, interpolated"
+12,"Age population, age 02, female, interpolated"
+13,"Age population, age 02, male, interpolated"
+14,"Age population, age 03, female, interpolated"
+15,"Age population, age 03, male, interpolated"
+16,"Age population, age 04, female, interpolated"
+17,"Age population, age 04, male, interpolated"
+18,"Age population, age 05, female, interpolated"
+19,"Age population, age 05, male, interpolated"
+20,"Average number of hours spent on unpaid domestic work (housework and child care), female"
+21,"Average number of hours spent on unpaid domestic work (housework and child care), male"
+22,"Birth rate, crude (per 1,000 people)"
+23,Births attended by skilled health staff (% of total)
+24,"Children in employment, female (% of female children ages 7-14)"
+25,"Children in employment, male (% of male children ages 7-14)"
+26,"Children out of school, primary, female"
+27,"Children out of school, primary, male"
+28,"Contraceptive prevalence, any methods (% of women ages 15-49)"
+29,"Contraceptive prevalence, modern methods (% of women ages 15-49)"
+30,"Contributing family workers, female (% of female employment)"
+31,"Contributing family workers, male (% of male employment)"
+32,"Cost of business start-up procedures, female (% of GNI per capita)"
+33,"Cost of business start-up procedures, male (% of GNI per capita)"
+34,"Death rate, crude (per 1,000 people)"
+35,Decision maker about a woman's own health care: mainly husband (% of women age 15-49)
+36,Decision maker about a woman's own health care: mainly wife (% of women age 15-49)
+37,Decision maker about a woman's own health care: other (% of women age 15-49)
+38,Decision maker about a woman's own health care: someone else (% of women age 15-49)
+39,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49)
+40,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49)
+41,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49)
+42,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49)
+43,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49)
+44,Decision maker about major household purchases: mainly husband (% of women age 15-49)
+45,Decision maker about major household purchases: mainly wife (% of women age 15-49)
+46,Decision maker about major household purchases: other (% of women age 15-49)
+47,Decision maker about major household purchases: someone else (% of women age 15-49)
+48,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49)
+49,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49)
+50,Demand for family planning satisfied by any methods (% of married women with demand for family planning)
+51,Demand for family planning satisfied by modern methods (% of married women with demand for family planning)
+52,"Educational attainment, at least Bachelor's or equivalent, population 25+, female (%) (cumulative)"
+53,"Educational attainment, at least Bachelor's or equivalent, population 25+, male (%) (cumulative)"
+54,"Educational attainment, at least completed lower secondary, population 25+, female (%) (cumulative)"
+55,"Educational attainment, at least completed lower secondary, population 25+, male (%) (cumulative)"
+56,"Educational attainment, at least completed post-secondary, population 25+, female (%) (cumulative)"
+57,"Educational attainment, at least completed post-secondary, population 25+, male (%) (cumulative)"
+58,"Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative)"
+59,"Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative)"
+60,"Educational attainment, at least completed short-cycle tertiary, population 25+, female (%) (cumulative)"
+61,"Educational attainment, at least completed short-cycle tertiary, population 25+, male (%) (cumulative)"
+62,"Educational attainment, at least completed upper secondary, population 25+, female (%) (cumulative)"
+63,"Educational attainment, at least completed upper secondary, population 25+, male (%) (cumulative)"
+64,"Educational attainment, at least Master's or equivalent, population 25+, female (%) (cumulative)"
+65,"Educational attainment, at least Master's or equivalent, population 25+, male (%) (cumulative)"
+66,"Educational attainment, completed Bachelor's or equivalent, population 25+ years, female (%)"
+67,"Educational attainment, completed Bachelor's or equivalent, population 25+ years, male (%)"
+68,"Educational attainment, completed Doctoral or equivalent, population 25+ years, female (%)"
+69,"Educational attainment, completed Doctoral or equivalent, population 25+ years, male (%)"
+70,"Educational attainment, completed lower secondary, population 25+ years, female (%)"
+71,"Educational attainment, completed lower secondary, population 25+ years, male (%)"
+72,"Educational attainment, completed Master's or equivalent, population 25+ years, female (%)"
+73,"Educational attainment, completed Master's or equivalent, population 25+ years, male (%)"
+74,"Educational attainment, completed post-secondary, population 25+ years, female (%)"
+75,"Educational attainment, completed post-secondary, population 25+ years, male (%)"
+76,"Educational attainment, completed primary, population 25+ years, female (%)"
+77,"Educational attainment, completed primary, population 25+ years, male (%)"
+78,"Educational attainment, completed short-cycle tertiary, population 25+ years, female (%)"
+79,"Educational attainment, completed short-cycle tertiary, population 25+ years, male (%)"
+80,"Educational attainment, completed upper secondary, population 25+ years, female (%)"
+81,"Educational attainment, completed upper secondary, population 25+ years, male (%)"
+82,"Educational attainment, Doctoral or equivalent, population 25+, female (%) (cumulative)"
+83,"Educational attainment, Doctoral or equivalent, population 25+, male (%) (cumulative)"
+84,"Educational attainment, no schooling, population 25+ years, female (%)"
+85,"Educational attainment, no schooling, population 25+ years, male (%)"
+86,"Educational attainment, some primary, population 25+ years, female (%)"
+87,"Educational attainment, some primary, population 25+ years, male (%)"
+88,"Educational attainment, some primary, population 25+ years, total (%)"
+89,"Employers, female (% of female employment)"
+90,"Employers, male (% of male employment)"
+91,"Employment in agriculture, female (% of female employment)"
+92,"Employment in agriculture, male (% of male employment)"
+93,"Employment in industry, female (% of female employment)"
+94,"Employment in industry, male (% of male employment)"
+95,"Employment in services, female (% of female employment)"
+96,"Employment in services, male (% of male employment)"
+97,"Employment to population ratio, 15+, female (%) (modeled ILO estimate)"
+98,"Employment to population ratio, 15+, female (%) (national estimate)"
+99,"Employment to population ratio, 15+, male (%) (modeled ILO estimate)"
+100,"Employment to population ratio, 15+, male (%) (national estimate)"
+101,"Employment to population ratio, 15+, total (%) (national estimate)"
+102,"Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)"
+103,"Employment to population ratio, ages 15-24, female (%) (national estimate)"
+104,"Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)"
+105,"Employment to population ratio, ages 15-24, male (%) (national estimate)"
+106,"Employment to population ratio, ages 15-24, total (%) (national estimate)"
+107,"Expected years of schooling, female"
+108,"Expected years of schooling, male"
+109,Female genital mutilation prevalence (%)
+110,Female genital mutilation prevalence (%): Q1 (lowest)
+111,Female genital mutilation prevalence (%): Q2
+112,Female genital mutilation prevalence (%): Q3
+113,Female genital mutilation prevalence (%): Q4
+114,Female genital mutilation prevalence (%): Q5 (highest)
+115,Female headed households (% of households with a female head)
+116,Female share of employment in senior and middle management (%)
+117,"Fertility rate, total (births per woman)"
+118,Firms with female participation in ownership (% of firms)
+119,GDP (current US$)
+120,GDP growth (annual %)
+121,GDP per capita (Current US$)
+122,GINI index (World Bank estimate)
+123,"GNI per capita, Atlas method (current US$)"
+124,"GNI per capita, PPP (current international $)"
+125,"GNI, Atlas method (current US$)"
+126,"Government expenditure on education, total (% of GDP)"
+127,"Government expenditure per student, primary (% of GDP per capita)"
+128,"Government expenditure per student, secondary (% of GDP per capita)"
+129,"Gross graduation ratio, primary, female (%)"
+130,"Gross graduation ratio, primary, male (%)"
+131,"Gross graduation ratio, tertiary, female (%)"
+132,"Gross graduation ratio, tertiary, male (%)"
+133,"Health expenditure per capita, PPP (constant 2011 international $)"
+134,"Health expenditure, public (% of GDP)"
+135,Households with water 30 minutes or longer away round trip (%)
+136,Households with water less than 30 minutes away round trip (%)
+137,Households with water on the premises (%)
+138,"Immunization, DPT (% of children ages 12-23 months)"
+139,"Immunization, measles (% of children ages 12-23 months)"
+140,Improved sanitation facilities (% of population with access)
+141,Improved water source (% of population with access)
+142,"Inflation, consumer prices (annual %)"
+143,"Informal employment, female (% of total non-agricultural employment)"
+144,"Informal employment, male (% of total non-agricultural employment)"
+145,"Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)"
+146,"Labor force participation rate for ages 15-24, female (%) (national estimate)"
+147,"Labor force participation rate for ages 15-24, male (%) (modeled ILO estimate)"
+148,"Labor force participation rate for ages 15-24, male (%) (national estimate)"
+149,"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)"
+150,"Labor force participation rate, female (% of female population ages 15+) (national estimate)"
+151,"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)"
+152,"Labor force participation rate, male (% of male population ages 15+) (national estimate)"
+153,"Labor force with advanced education, female (% of female working-age population with advanced education)"
+154,"Labor force with advanced education, male (% of male working-age population with advanced education)"
+155,"Labor force with basic education, female (% of female working-age population with basic education)"
+156,"Labor force with basic education, male (% of male working-age population with basic education)"
+157,"Labor force with intermediate education, female (% of female working-age population with intermediate education)"
+158,"Labor force with intermediate education, male (% of male working-age population with intermediate education)"
+159,"Labor force, female"
+160,"Labor force, female (% of total labor force)"
+161,"Labor force, total"
+162,Law mandates nondiscrimination based on gender in hiring (1=yes; 0=no)
+163,Law mandates paid or unpaid maternity leave (1=yes; 0=no)
+164,"Life expectancy at birth, female (years)"
+165,"Life expectancy at birth, male (years)"
+166,"Literacy rate, adult female (% of females ages 15 and above)"
+167,"Literacy rate, adult male (% of males ages 15 and above)"
+168,"Literacy rate, youth (ages 15-24), gender parity index (GPI)"
+169,"Literacy rate, youth female (% of females ages 15-24)"
+170,"Literacy rate, youth male (% of males ages 15-24)"
+171,Location of cooking: inside the house (% of households)
+172,Location of cooking: other places (% of households)
+173,Location of cooking: outdoors (% of households)
+174,Location of cooking: separate building (% of households)
+175,"Lower secondary completion rate, female (% of relevant age group)"
+176,"Lower secondary completion rate, male (% of relevant age group)"
+177,Main cooking fuel: agricultural crop (% of households)
+178,Main cooking fuel: charcoal (% of households)
+179,Main cooking fuel: dung (% of households)
+180,Main cooking fuel: electricity  (% of households)
+181,Main cooking fuel: LPG/natural gas/biogas (% of households)
+182,Main cooking fuel: straw/shrubs/grass (% of households)
+183,Main cooking fuel: wood (% of households)
+184,Married men and married women have equal ownership rights to property (1=yes; 0=no)
+185,Married women are required by law to obey their husbands (1=yes; 0=no)
+186,"Maternal mortality ratio (modeled estimate, per 100,000 live births)"
+187,Maternity leave (days paid)
+188,Maternity leave benefits (% of wages paid)
+189,Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no)
+190,"Net intake rate in grade 1, female (% of official school-age population)"
+191,"Net intake rate in grade 1, male (% of official school-age population)"
+192,Nondiscrimination clause mentions gender in the constitution (1=yes; 0=no)
+193,Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no)
+194,Number of maternal deaths
+195,"Own-account workers, female (% of females employed)"
+196,"Own-account workers, male (% of males employed)"
+197,People practicing open defecation (% of population)
+198,"People practicing open defecation, rural (% of rural population)"
+199,"People practicing open defecation, urban (% of urban population)"
+200,"Persistence to grade 5, female (% of cohort)"
+201,"Persistence to grade 5, male (% of cohort)"
+202,Population ages 0-14 (% of total)
+203,"Population ages 0-14, female"
+204,Population ages 15-64 (% of total)
+205,"Population ages 15-64, female"
+206,"Population ages 15-64, male"
+207,"Population ages 15-64, total"
+208,Population ages 65 and above (% of total)
+209,"Population ages 65 and above, female"
+210,"Population, female"
+211,"Population, female (% of total)"
+212,"Population, total"
+213,Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)
+214,Poverty headcount ratio at national poverty lines (% of population)
+215,Pregnant women receiving prenatal care (%)
+216,Prevalence of anemia among women of reproductive age (% of women ages 15-49)
+217,"Prevalence of HIV, female (% ages 15-24)"
+218,"Prevalence of HIV, male (% ages 15-24)"
+219,"Prevalence of obesity, female (% of female population ages 18+)"
+220,"Prevalence of obesity, male (% of male population ages 18+)"
+221,"Prevalence of overweight, female (% of female adults)"
+222,"Prevalence of overweight, male (% of male adults)"
+223,"Prevalence of overweight, weight for height, female (% of children under 5)"
+224,"Prevalence of overweight, weight for height, male (% of children under 5)"
+225,"Prevalence of severe wasting, weight for height, female (% of children under 5)"
+226,"Prevalence of severe wasting, weight for height, male (% of children under 5)"
+227,"Prevalence of stunting, height for age, female (% of children under 5)"
+228,"Prevalence of stunting, height for age, male (% of children under 5)"
+229,"Prevalence of underweight, weight for age, female (% of children under 5)"
+230,"Prevalence of underweight, weight for age, male (% of children under 5)"
+231,"Prevalence of wasting, weight for height, female (% of children under 5)"
+232,"Prevalence of wasting, weight for height, male (% of children under 5)"
+233,"Primary completion rate, female (% of relevant age group)"
+234,"Primary completion rate, male (% of relevant age group)"
+235,"Primary education, pupils (% female)"
+236,"Primary education, teachers (% female)"
+237,"Progression to secondary school, female (%)"
+238,"Progression to secondary school, male (%)"
+239,Proportion of seats held by women in national parliaments (%)
+240,Proportion of women in ministerial level positions (%)
+241,Ratio of female to male labor force participation rate (%) (modeled ILO estimate)
+242,Ratio of female to male labor force participation rate (%) (national estimate)
+243,Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate)
+244,Ratio of female to male youth unemployment rate (%) (national estimate)
+245,"School enrollment, primary (gross), gender parity index (GPI)"
+246,"School enrollment, primary and secondary (gross), gender parity index (GPI)"
+247,"School enrollment, primary, female (% gross)"
+248,"School enrollment, primary, female (% net)"
+249,"School enrollment, primary, male (% gross)"
+250,"School enrollment, primary, male (% net)"
+251,"School enrollment, secondary (gross), gender parity index (GPI)"
+252,"School enrollment, secondary, female (% gross)"
+253,"School enrollment, secondary, female (% net)"
+254,"School enrollment, secondary, male (% gross)"
+255,"School enrollment, secondary, male (% net)"
+256,"School enrollment, tertiary (gross), gender parity index (GPI)"
+257,"School enrollment, tertiary, female (% gross)"
+258,"School enrollment, tertiary, male (% gross)"
+259,"Secondary education, pupils (% female)"
+260,"Secondary education, teachers (% female)"
+261,"Self-employed, female (% of female employment)"
+262,"Self-employed, male (% of male employment)"
+263,Sex ratio at birth (male births per female births)
+264,Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment)
+265,"Smoking prevalence, females (% of adults)"
+266,"Smoking prevalence, males (% of adults)"
+267,"Start-up procedures to register a business, female (number)"
+268,"Start-up procedures to register a business, male (number)"
+269,"Tertiary education, academic staff (% female)"
+270,"Time required to start a business, female (days)"
+271,"Time required to start a business, male (days)"
+272,"Time-related underemployment, female (% of employment)"
+273,"Time-related underemployment, male (% of employment)"
+274,"Unemployment with advanced education, female (% of female labor force with advanced education)"
+275,"Unemployment with advanced education, male (% of male labor force with advanced education)"
+276,"Unemployment with basic education, female (% of female labor force with basic education)"
+277,"Unemployment with basic education, male (% of male labor force with basic education)"
+278,"Unemployment with intermediate education, female (% of female labor force with intermediate education)"
+279,"Unemployment with intermediate education, male (% of male labor force with intermediate education)"
+280,"Unemployment, female (% of female labor force) (modeled ILO estimate)"
+281,"Unemployment, female (% of female labor force) (national estimate)"
+282,"Unemployment, male (% of male labor force) (modeled ILO estimate)"
+283,"Unemployment, male (% of male labor force) (national estimate)"
+284,"Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)"
+285,"Unemployment, youth female (% of female labor force ages 15-24) (national estimate)"
+286,"Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)"
+287,"Unemployment, youth male (% of male labor force ages 15-24) (national estimate)"
+288,Unmet need for contraception (% of married women ages 15-49)
+289,"Vulnerable employment, female (% of female employment)"
+290,"Vulnerable employment, male (% of male employment)"
+291,"Wage and salaried workers, female (% of female employment)"
+292,"Wage and salaried workers, male (% of male employment)"
+293,Wanted fertility rate (births per woman)
+294,Woman's testimony carries the same evidentiary weight in court as a man's (1=yes; 0=no)
+295,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)"
+296,Women participating in decision of what food to cook daily (% of women age 15-49)
+297,Women participating in making daily purchase decisions (% of women age 15-49)
+298,Women participating in making major household purchase decisions (% of women age 15-49)
+299,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)"
+300,Women participating in own health care decisions (% of women age 15-49)
+301,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)"
+302,Women who believe a husband is justified in beating his wife (any of five reasons) (%)
+303,Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q1 (lowest)
+304,Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q2
+305,Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q3
+306,Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q4
+307,Women who believe a husband is justified in beating his wife (any of five reasons) (%): Q5 (highest)
+308,Women who believe a husband is justified in beating his wife when she argues with him (%)
+309,Women who believe a husband is justified in beating his wife when she argues with him (%): Q1 (lowest)
+310,Women who believe a husband is justified in beating his wife when she argues with him (%): Q2
+311,Women who believe a husband is justified in beating his wife when she argues with him (%): Q3
+312,Women who believe a husband is justified in beating his wife when she argues with him (%): Q4
+313,Women who believe a husband is justified in beating his wife when she argues with him (%): Q5 (highest)
+314,Women who believe a husband is justified in beating his wife when she burns the food (%)
+315,Women who believe a husband is justified in beating his wife when she burns the food (%): Q1 (lowest)
+316,Women who believe a husband is justified in beating his wife when she burns the food (%): Q2
+317,Women who believe a husband is justified in beating his wife when she burns the food (%): Q3
+318,Women who believe a husband is justified in beating his wife when she burns the food (%): Q4
+319,Women who believe a husband is justified in beating his wife when she burns the food (%): Q5 (highest)
+320,Women who believe a husband is justified in beating his wife when she goes out without telling him (%)
+321,Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q1 (lowest)
+322,Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q2
+323,Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q3
+324,Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q4
+325,Women who believe a husband is justified in beating his wife when she goes out without telling him (%): Q5 (highest)
+326,Women who believe a husband is justified in beating his wife when she neglects the children (%)
+327,Women who believe a husband is justified in beating his wife when she neglects the children (%): Q1 (lowest)
+328,Women who believe a husband is justified in beating his wife when she neglects the children (%): Q2
+329,Women who believe a husband is justified in beating his wife when she neglects the children (%): Q3
+330,Women who believe a husband is justified in beating his wife when she neglects the children (%): Q4
+331,Women who believe a husband is justified in beating his wife when she neglects the children (%): Q5 (highest)
+332,Women who believe a husband is justified in beating his wife when she refuses sex with him (%)
+333,Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q1 (lowest)
+334,Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q2
+335,Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q3
+336,Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q4
+337,Women who believe a husband is justified in beating his wife when she refuses sex with him (%): Q5 (highest)
+338,Women who believe a wife is justified refusing sex with her husband for all of the reasons (%)
+339,Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q1 (lowest)
+340,Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q2
+341,Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q3
+342,Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q4
+343,Women who believe a wife is justified refusing sex with her husband for all of the reasons (%): Q5 (highest)
+344,Women who believe a wife is justified refusing sex with her husband for none of the reasons (%)
+345,Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q1 (lowest)
+346,Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q2
+347,Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q3
+348,Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q4
+349,Women who believe a wife is justified refusing sex with her husband for none of the reasons (%): Q5 (highest)
+350,Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%)
+351,Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q1 (lowest)
+352,Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q2
+353,Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q3
+354,Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q4
+355,Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%): Q5 (highest)
+356,Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%)
+357,Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q1 (lowest)
+358,Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q2
+359,Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q3
+360,Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q4
+361,Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%): Q5 (highest)
+362,Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%)
+363,Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q1 (lowest)
+364,Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q2
+365,Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q3
+366,Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q4
+367,Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%): Q5 (highest)
+368,Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%)
+369,Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q1 (lowest)
+370,Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q2
+371,Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q3
+372,Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q4
+373,Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%): Q5 (highest)
+374,Women who were first married by age 18 (% of women ages 20-24)
+375,Women's share of population ages 15+ living with HIV (%)
+376,% of females ages 15-49 having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)
+377,% of males ages 15-49 having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)
+378,Adults (ages 15+) and children (0-14 years) living with HIV
+379,Adults (ages 15+) and children (ages 0-14) newly infected with HIV
+380,Adults (ages 15+) living with HIV
+381,Adults (ages 15+) newly infected with HIV
+382,"Age dependency ratio, old"
+383,"Age dependency ratio, young"
+384,"Age population, age 06, female, interpolated"
+385,"Age population, age 06, male, interpolated"
+386,"Age population, age 07, female, interpolated"
+387,"Age population, age 07, male, interpolated"
+388,"Age population, age 08, female, interpolated"
+389,"Age population, age 08, male, interpolated"
+390,"Age population, age 09, female, interpolated"
+391,"Age population, age 09, male, interpolated"
+392,"Age population, age 10, female, interpolated"
+393,"Age population, age 10, male, interpolated"
+394,"Age population, age 11, female, interpolated"
+395,"Age population, age 11, male, interpolated"
+396,"Age population, age 12, female, interpolated"
+397,"Age population, age 12, male, interpolated"
+398,"Age population, age 13, female, interpolated"
+399,"Age population, age 13, male, interpolated"
+400,"Age population, age 14, female, interpolated"
+401,"Age population, age 14, male, interpolated"
+402,"Age population, age 15, female, interpolated"
+403,"Age population, age 15, male, interpolated"
+404,"Age population, age 16, female, interpolated"
+405,"Age population, age 16, male, interpolated"
+406,"Age population, age 17, female, interpolated"
+407,"Age population, age 17, male, interpolated"
+408,"Age population, age 18, female, interpolated"
+409,"Age population, age 18, male, interpolated"
+410,"Age population, age 19, female, interpolated"
+411,"Age population, age 19, male, interpolated"
+412,"Age population, age 20, female, interpolated"
+413,"Age population, age 20, male, interpolated"
+414,"Age population, age 21, female, interpolated"
+415,"Age population, age 21, male, interpolated"
+416,"Age population, age 22, female, interpolated"
+417,"Age population, age 22, male, interpolated"
+418,"Age population, age 23, female, interpolated"
+419,"Age population, age 23, male, interpolated"
+420,"Age population, age 24, female, interpolated"
+421,"Age population, age 24, male, interpolated"
+422,"Age population, age 25, female, interpolated"
+423,"Age population, age 25, male, interpolated"
+424,AIDS estimated deaths (UNAIDS estimates)
+425,Antiretroviral therapy coverage (% of people living with HIV)
+426,Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV)
+427,ARI treatment (% of children under 5 taken to a health provider)
+428,Children (0-14) living with HIV
+429,Children (ages 0-14) newly infected with HIV
+430,Children orphaned by HIV/AIDS
+431,Children with fever receiving antimalarial drugs (% of children under age 5 with fever)
+432,"Community health workers (per 1,000 people)"
+433,Completeness of birth registration (%)
+434,"Completeness of birth registration, rural (%)"
+435,"Completeness of birth registration, urban (%)"
+436,"Comprehensive correct knowledge of HIV/AIDS, ages 15-24, female (2 prevent ways and reject 3 misconceptions)"
+437,"Comprehensive correct knowledge of HIV/AIDS, ages 15-24, male (2 prevent ways and reject 3 misconceptions)"
+438,"Condom use with non regular partner, % adults(15-49), female"
+439,"Condom use with non regular partner, % adults(15-49), male"
+440,"Condom use, population ages 15-24, female (% of females ages 15-24)"
+441,"Condom use, population ages 15-24, male (% of males ages 15-24)"
+442,Consumption of iodized salt (% of households)
+443,Diarrhea treatment (% of children under 5 receiving oral rehydration and continued feeding)
+444,Diarrhea treatment (% of children under 5 who received ORS packet)
+445,Exclusive breastfeeding (% of children under 6 months)
+446,External resources for health (% of total expenditure on health)
+447,Female population 00-04
+448,Female population 05-09
+449,Female population 10-14
+450,Female population 15-19
+451,Female population 20-24
+452,Female population 25-29
+453,Female population 30-34
+454,Female population 35-39
+455,Female population 40-44
+456,Female population 45-49
+457,Female population 50-54
+458,Female population 55-59
+459,Female population 60-64
+460,Female population 65-69
+461,Female population 70-74
+462,Female population 75-79
+463,Female population 80+
+464,Health expenditure per capita (current US$)
+465,"Health expenditure per capita, PPP"
+466,"Health expenditure, private (% of GDP)"
+467,"Health expenditure, private (% of total health expenditure)"
+468,"Health expenditure, public (% of government expenditure)"
+469,"Health expenditure, public (% of total health expenditure)"
+470,"Health expenditure, total (% of GDP)"
+471,"Health expenditure, total (current US$)"
+472,"Hospital beds (per 1,000 people)"
+473,"Immunization, BCG (% of one-year-old children)"
+474,"Immunization, HepB3 (% of one-year-old children)"
+475,"Immunization, Hib3 (% of children ages 12-23 months)"
+476,"Immunization, Pol3 (% of one-year-old children)"
+477,"Improved sanitation facilities, rural (% of rural population with access)"
+478,"Improved sanitation facilities, urban (% of urban population with access)"
+479,"Improved water source, rural (% of rural population with access)"
+480,"Improved water source, urban (% of urban population with access)"
+481,Incidence of HIV (% of uninfected population ages 15-49)
+482,"Incidence of tuberculosis (per 100,000 people)"
+483,"Infant and young child feeding practices, all 3 IYCF (% children ages 6-23 months)"
+484,"Life expectancy at birth, total (years)"
+485,Lifetime risk of maternal death (%)
+486,Lifetime risk of maternal death (1 in: rate varies by country)
+487,"Literacy rate, adult total (% of people ages 15 and above)"
+488,"Literacy rate, youth total (% of people ages 15-24)"
+489,Low-birthweight babies (% of births)
+490,Malaria cases reported
+491,Male population 00-04
+492,Male population 05-09
+493,Male population 10-14
+494,Male population 15-19
+495,Male population 20-24
+496,Male population 25-29
+497,Male population 30-34
+498,Male population 35-39
+499,Male population 40-44
+500,Male population 45-49
+501,Male population 50-54
+502,Male population 55-59
+503,Male population 60-64
+504,Male population 65-69
+505,Male population 70-74
+506,Male population 75-79
+507,Male population 80+
+508,"Malnutrition prevalence, height for age (% of children under 5)"
+509,"Malnutrition prevalence, height for age, female (% of children under 5)"
+510,"Malnutrition prevalence, height for age, male (% of children under 5)"
+511,"Malnutrition prevalence, weight for age (% of children under 5)"
+512,"Malnutrition prevalence, weight for age, female (% of children under 5)"
+513,"Malnutrition prevalence, weight for age, male (% of children under 5)"
+514,Maternal leave benefits (% of wages paid in covered period)
+515,"Maternal mortality ratio (national estimate, per 100,000 live births)"
+516,"Mortality rate, adult, female (per 1,000 female adults)"
+517,"Mortality rate, adult, male (per 1,000 male adults)"
+518,"Mortality rate, infant (per 1,000 live births)"
+519,"Mortality rate, neonatal (per 1,000 live births)"
+520,"Mortality rate, under-5 (per 1,000)"
+521,Newborns protected against tetanus (%)
+522,Number of infant deaths
+523,Number of neonatal deaths
+524,Number of people who are undernourished
+525,Number of under-five deaths
+526,Number of weeks of maternity leave
+527,"Nurses and midwives (per 1,000 people)"
+528,Out-of-pocket health expenditure (% of private expenditure on health)
+529,Out-of-pocket health expenditure (% of total expenditure on health)
+530,People using basic drinking water services (% of population)
+531,"People using basic drinking water services, rural (% of rural population)"
+532,"People using basic drinking water services, urban (% of urban population)"
+533,People using basic sanitation services (% of population)
+534,"People using basic sanitation services, rural (% of rural population)"
+535,"People using basic sanitation services, urban  (% of urban population)"
+536,People using safely managed drinking water services (% of population)
+537,"People using safely managed drinking water services, rural (% of rural population)"
+538,"People using safely managed drinking water services, urban (% of urban population)"
+539,People using safely managed sanitation services (% of population)
+540,"People using safely managed sanitation services, rural (% of rural population)"
+541,"People using safely managed sanitation services, urban  (% of urban population)"
+542,"Physicians (per 1,000 people)"
+543,"Population ages 00-04, female (% of female population)"
+544,"Population ages 00-04, male (% of male population)"
+545,Population ages 00-14 (% of total)
+546,"Population ages 00-14, female (% of total)"
+547,"Population ages 00-14, male (% of total)"
+548,"Population ages 00-14, total"
+549,"Population ages 0-14, male"
+550,"Population ages 05-09, female (% of female population)"
+551,"Population ages 05-09, male (% of male population)"
+552,"Population ages 10-14, female (% of female population)"
+553,"Population ages 15-19, female (% of female population)"
+554,"Population ages 15-19, male (% of male population)"
+555,"Population ages 15-64, female (% of total)"
+556,"Population ages 15-64, male (% of total)"
+557,"Population ages 20-24, female (% of female population)"
+558,"Population ages 20-24, male (% of male population)"
+559,"Population ages 25-29, female (% of female population)"
+560,"Population ages 25-29, male (% of male population)"
+561,"Population ages 30-34, female (% of female population)"
+562,"Population ages 30-34, male (% of male population)"
+563,"Population ages 35-39, female (% of female population)"
+564,"Population ages 35-39, male (% of male population)"
+565,"Population ages 40-44, female (% of female population)"
+566,"Population ages 40-44, male (% of male population)"
+567,"Population ages 45-49, female (% of female population)"
+568,"Population ages 45-49, male (% of male population)"
+569,"Population ages 50-54, female (% of female population)"
+570,"Population ages 50-54, male (% of male population)"
+571,"Population ages 55-59, female (% of female population)"
+572,"Population ages 55-59, male (% of male population)"
+573,"Population ages 60-64, female (% of female population)"
+574,"Population ages 60-64, male (% of male population)"
+575,"Population ages 65 and above, female (% of total)"
+576,"Population ages 65 and above, male"
+577,"Population ages 65 and above, male (% of total)"
+578,"Population ages 65 and above, total"
+579,"Population ages 65-69, female (% of female population)"
+580,"Population ages 65-69, male (% of male population)"
+581,"Population ages 70-74, female (% of female population)"
+582,"Population ages 70-74, male (% of male population)"
+583,"Population ages 75-79, female (% of female population)"
+584,"Population ages 75-79, male (% of male population)"
+585,"Population ages 80 and older, female (% of female population)"
+586,"Population ages 80 and older, male (% of male population)"
+587,"Population ages10-14, male (% of male population)"
+588,Population growth (annual %)
+589,"Population, male"
+590,"Population, male (% of total)"
+591,Postnatal care coverage (% mothers)
+592,Poverty headcount ratio at national poverty line (% of population)
+593,Pregnant women receiving prenatal care of at least four visits (% of pregnant women)
+594,Prevalence of anemia among children (% of children under 5)
+595,Prevalence of anemia among non-pregnant women (% of women ages 15-49)
+596,Prevalence of anemia among pregnant women (%)
+597,"Prevalence of HIV, total (% of population ages 15-49)"
+598,Prevalence of overweight (% of children under 5)
+599,"Prevalence of overweight, female (% of children under 5)"
+600,"Prevalence of overweight, male (% of children under 5)"
+601,"Prevalence of severe wasting, weight for height (% of children under 5)"
+602,Prevalence of syphilis (% of women attending antenatal care)
+603,Prevalence of undernourishment (% of population)
+604,Prevalence of wasting (% of children under 5)
+605,"Prevalence of wasting, female (% of children under 5)"
+606,"Prevalence of wasting, male (% of children under 5)"
+607,"Primary completion rate, total (% of relevant age group)"
+608,"Public spending on education, total (% of GDP)"
+609,Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14
+610,Ratio of young literate females to males (% ages 15-24)
+611,Rural population
+612,Rural population (% of total population)
+613,Rural population growth (annual %)
+614,Rural poverty headcount ratio at national poverty lines (% of rural population)
+615,"School enrollment, primary (% gross)"
+616,"School enrollment, primary (% net)"
+617,"School enrollment, secondary (% gross)"
+618,"School enrollment, secondary (% net)"
+619,"School enrollment, tertiary (% gross)"
+620,Share of women employed in the nonagricultural sector (% of total nonagricultural employment)
+621,"Survival to age 65, female (% of cohort)"
+622,"Survival to age 65, male (% of cohort)"
+623,Teenage mothers (% of women ages 15-19 who have had children or are currently pregnant)
+624,Tuberculosis case detection rate (all forms)
+625,"Tuberculosis death rate (per 100,000 people)"
+626,Tuberculosis treatment success rate (% of new cases)
+627,"Unemployment, female (% of female labor force)"
+628,"Unemployment, male (% of male labor force)"
+629,"Unemployment, total (% of total labor force)"
+630,Urban population
+631,Urban population (% of total)
+632,Urban population growth (annual %)
+633,Urban poverty headcount ratio at national poverty lines (% of urban population)
+634,Use of insecticide-treated bed nets (% of under-5 population)
+635,"Use of Intermittent Preventive Treatment of malaria, 2+ doses of SP/Fansidar (% of pregnant women)"
+636,Vitamin A supplementation coverage rate (% of children ages 6-59 months)
+637,CO2 emissions (kg per PPP $ of GDP)
+638,CO2 emissions (kt)
+639,CO2 emissions (metric tons per capita)
+640,"Debt service (PPG and IMF only, % of exports of goods, services and primary income)"
+641,"Employment to population ratio, 15+, total (%) (modeled ILO estimate)"
+642,"Employment to population ratio, ages 15-24, total (%) (modeled ILO estimate)"
+643,Fixed telephone subscriptions (per 100 people)
+644,Forest area (% of land area)
+645,Forest area (sq. km)
+646,GDP per person employed (constant 2011 PPP $)
+647,Gross capital formation (% of GDP)
+648,Internet users (per 100 people)
+649,Mobile cellular subscriptions (per 100 people)
+650,"Mortality rate, under-5 (per 1,000 live births)"
+651,Net ODA received (% of GNI)
+652,Net ODA received per capita (current US$)
+653,Net official development assistance and official aid received (current US$)
+654,Net official development assistance received (current US$)
+655,"PPP conversion factor, GDP (LCU per international $)"
+656,"PPP conversion factor, private consumption (LCU per international $)"
+657,Reported cases of malaria
+658,Status under enhanced HIPC initiative
+659,"Total debt service (% of exports of goods, services and primary income)"
+660,Trade (% of GDP)
+661,"Tuberculosis case detection rate (%, all forms)"
+662,"Tuberculosis death rate (per 100,000 people), including HIV"
+663,"Adjusted net enrollment rate, primary (% of primary school age children)"
+664,"Contributing family workers, total (% of total employment)"
+665,"Energy use (kg of oil equivalent) per $1,000 GDP (constant 2011 PPP)"
+666,GDP per unit of energy use (constant 2011 PPP $ per kg of oil equivalent)
+667,"Persistence to last grade of primary, female (% of cohort)"
+668,"Persistence to last grade of primary, male (% of cohort)"
+669,"Persistence to last grade of primary, total (% of cohort)"
+670,"Vulnerable employment, total (% of total employment)"
+671,Population living in slums (% of urban population)
+672,Income share held by lowest 20%
+673,Poverty gap at $1.90 a day (2011 PPP) (%)
+674,"Self-employed, total (% of total employment)"
+675,Poverty gap at national poverty lines (%)
+676,Rural poverty gap at national poverty lines (%)
+677,Urban poverty gap at national poverty lines (%)
+678,Agricultural support estimate (% of GDP)
+679,Average tariffs imposed by developed countries on agricultural products from developing countries (%)
+680,Average tariffs imposed by developed countries on agricultural products from least developed countries (%)
+681,Average tariffs imposed by developed countries on clothing products from developing countries (%)
+682,Average tariffs imposed by developed countries on clothing products from least developed countries (%)
+683,Average tariffs imposed by developed countries on textile products from developing countries (%)
+684,Average tariffs imposed by developed countries on textile products from least developed countries (%)
+685,Bilateral ODA commitments that is untied (% of bilateral ODA commitments)
+686,Bilateral ODA commitments that is untied (current US$)
+687,"Bilateral, sector-allocable ODA to basic social services (% of bilateral ODA commitments)"
+688,"Bilateral, sector-allocable ODA to basic social services (current US$)"
+689,Goods (excluding arms) admitted free of tariffs from developing countries (% total merchandise imports excluding arms)
+690,Goods (excluding arms) admitted free of tariffs from least developed countries (% total merchandise imports excluding arms)
+691,Net ODA provided to the least developed countries (% of donor GNI)
+692,Net ODA provided to the least developed countries (current US$)
+693,"Net ODA provided, total (% of GNI)"
+694,"Net ODA provided, total (constant 2015 US$)"
+695,"Net ODA provided, total (current US$)"
+696,Total bilateral ODA commitments (current US$)
+697,Total bilateral sector allocable ODA commitments (current US$)
+698,% of females having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)
+699,"Prevalence of underweight, weight for age (% of children under 5)"
+700,% of males having comprehensive correct knowledge about HIV (2 prevent ways and reject 3 misconceptions)
+701,"Condom use at last high-risk sex, adult female (% ages 15-49)"
+702,"Condom use at last high-risk sex, adult male (% ages 15-49)"
+703,Ratio of school attendance rate of orphans to school attendance rate of non orphans
+704,Antenatal care (any skilled personnel) (% of women with a birth): Q1 (lowest)
+705,Antenatal care (any skilled personnel) (% of women with a birth): Q2
+706,Antenatal care (any skilled personnel) (% of women with a birth): Q3
+707,Antenatal care (any skilled personnel) (% of women with a birth): Q4
+708,Antenatal care (any skilled personnel) (% of women with a birth): Q5 (highest)
+709,Antenatal care (doctor) (% of women with a birth): Q1 (lowest)
+710,Antenatal care (doctor) (% of women with a birth): Q2
+711,Antenatal care (doctor) (% of women with a birth): Q3
+712,Antenatal care (doctor) (% of women with a birth): Q4
+713,Antenatal care (doctor) (% of women with a birth): Q5 (highest)
+714,Assistance during delivery (any skilled personnel) (% of births): Q1 (lowest)
+715,Assistance during delivery (any skilled personnel) (% of births): Q2
+716,Assistance during delivery (any skilled personnel) (% of births): Q3
+717,Assistance during delivery (any skilled personnel) (% of births): Q4
+718,Assistance during delivery (any skilled personnel) (% of births): Q5 (highest)
+719,Assistance during delivery (doctor) (% of births): Q1 (lowest)
+720,Assistance during delivery (doctor) (% of births): Q2
+721,Assistance during delivery (doctor) (% of births): Q3
+722,Assistance during delivery (doctor) (% of births): Q4
+723,Assistance during delivery (doctor) (% of births): Q5 (highest)
+724,Current use of contraception (any method) (% of married women): Q1 (lowest)
+725,Current use of contraception (any method) (% of married women): Q2
+726,Current use of contraception (any method) (% of married women): Q3
+727,Current use of contraception (any method) (% of married women): Q4
+728,Current use of contraception (any method) (% of married women): Q5 (highest)
+729,Current use of contraception (modern method) (% of married women): Q1 (lowest)
+730,Current use of contraception (modern method) (% of married women): Q2
+731,Current use of contraception (modern method) (% of married women): Q3
+732,Current use of contraception (modern method) (% of married women): Q4
+733,Current use of contraception (modern method) (% of married women): Q5 (highest)
+734,Desire to stop (limit) childbearing (% of married women): Q1 (lowest)
+735,Desire to stop (limit) childbearing (% of married women): Q2
+736,Desire to stop (limit) childbearing (% of married women): Q3
+737,Desire to stop (limit) childbearing (% of married women): Q4
+738,Desire to stop (limit) childbearing (% of married women): Q5 (highest)
+739,Family planning messages in print (% of women): Q1 (lowest)
+740,Family planning messages in print (% of women): Q2
+741,Family planning messages in print (% of women): Q3
+742,Family planning messages in print (% of women): Q4
+743,Family planning messages in print (% of women): Q5 (highest)
+744,"Infant mortality rate (per 1,000 live births): Q1 (lowest)"
+745,"Infant mortality rate (per 1,000 live births): Q2"
+746,"Infant mortality rate (per 1,000 live births): Q3"
+747,"Infant mortality rate (per 1,000 live births): Q4"
+748,"Infant mortality rate (per 1,000 live births): Q5 (highest)"
+749,"Malnourished children (stunting, -2SD) (% of children under 5): Q1 (lowest)"
+750,"Malnourished children (stunting, -2SD) (% of children under 5): Q2"
+751,"Malnourished children (stunting, -2SD) (% of children under 5): Q3"
+752,"Malnourished children (stunting, -2SD) (% of children under 5): Q4"
+753,"Malnourished children (stunting, -2SD) (% of children under 5): Q5 (highest)"
+754,"Malnourished children (stunting, -3SD) (% of children under 5): Q1 (lowest)"
+755,"Malnourished children (stunting, -3SD) (% of children under 5): Q2"
+756,"Malnourished children (stunting, -3SD) (% of children under 5): Q3"
+757,"Malnourished children (stunting, -3SD) (% of children under 5): Q4"
+758,"Malnourished children (stunting, -3SD) (% of children under 5): Q5 (highest)"
+759,"Malnourished children (underweight, -2SD) (% of children under 5): Q1 (lowest)"
+760,"Malnourished children (underweight, -2SD) (% of children under 5): Q2"
+761,"Malnourished children (underweight, -2SD) (% of children under 5): Q3"
+762,"Malnourished children (underweight, -2SD) (% of children under 5): Q4"
+763,"Malnourished children (underweight, -2SD) (% of children under 5): Q5 (highest)"
+764,"Malnourished children (underweight, -3SD) (% of children under 5): Q1 (lowest)"
+765,"Malnourished children (underweight, -3SD) (% of children under 5): Q2"
+766,"Malnourished children (underweight, -3SD) (% of children under 5): Q3"
+767,"Malnourished children (underweight, -3SD) (% of children under 5): Q4"
+768,"Malnourished children (underweight, -3SD) (% of children under 5): Q5 (highest)"
+769,"Malnourished children (wasting, -2SD) (% of children under 5): Q1 (lowest)"
+770,"Malnourished children (wasting, -2SD) (% of children under 5): Q2"
+771,"Malnourished children (wasting, -2SD) (% of children under 5): Q3"
+772,"Malnourished children (wasting, -2SD) (% of children under 5): Q4"
+773,"Malnourished children (wasting, -2SD) (% of children under 5): Q5 (highest)"
+774,"Malnourished children (wasting, -3SD) (% of children under 5): Q1 (lowest)"
+775,"Malnourished children (wasting, -3SD) (% of children under 5): Q2"
+776,"Malnourished children (wasting, -3SD) (% of children under 5): Q3"
+777,"Malnourished children (wasting, -3SD) (% of children under 5): Q4"
+778,"Malnourished children (wasting, -3SD) (% of children under 5): Q5 (highest)"
+779,Malnourished women (BMI is less than 18.5) (% of women): Q1 (lowest)
+780,Malnourished women (BMI is less than 18.5) (% of women): Q2
+781,Malnourished women (BMI is less than 18.5) (% of women): Q3
+782,Malnourished women (BMI is less than 18.5) (% of women): Q4
+783,Malnourished women (BMI is less than 18.5) (% of women): Q5 (highest)
+784,Mean ideal number of children (per woman): Q1 (lowest)
+785,Mean ideal number of children (per woman): Q2
+786,Mean ideal number of children (per woman): Q3
+787,Mean ideal number of children (per woman): Q4
+788,Mean ideal number of children (per woman): Q5 (highest)
+789,Mean number of children ever born to women aged 40-49: Q1 (lowest)
+790,Mean number of children ever born to women aged 40-49: Q2
+791,Mean number of children ever born to women aged 40-49: Q3
+792,Mean number of children ever born to women aged 40-49: Q4
+793,Mean number of children ever born to women aged 40-49: Q5 (highest)
+794,Median age at first birth (women ages 25-49): Q1 (lowest)
+795,Median age at first birth (women ages 25-49): Q2
+796,Median age at first birth (women ages 25-49): Q3
+797,Median age at first birth (women ages 25-49): Q4
+798,Median age at first birth (women ages 25-49): Q5 (highest)
+799,Median age at first marriage (women ages 25-49): Q1 (lowest)
+800,Median age at first marriage (women ages 25-49): Q2
+801,Median age at first marriage (women ages 25-49): Q3
+802,Median age at first marriage (women ages 25-49): Q4
+803,Median age at first marriage (women ages 25-49): Q5 (highest)
+804,Median birth interval (months): Q1 (lowest)
+805,Median birth interval (months): Q2
+806,Median birth interval (months): Q3
+807,Median birth interval (months): Q4
+808,Median birth interval (months): Q5 (highest)
+809,Place of delivery (births at health facility) (% of births): Q1 (lowest)
+810,Place of delivery (births at health facility) (% of births): Q2
+811,Place of delivery (births at health facility) (% of births): Q3
+812,Place of delivery (births at health facility) (% of births): Q4
+813,Place of delivery (births at health facility) (% of births): Q5 (highest)
+814,Prevalence of acute respiratory infection (ARI) (% of children under 5): Q1 (lowest)
+815,Prevalence of acute respiratory infection (ARI) (% of children under 5): Q2
+816,Prevalence of acute respiratory infection (ARI) (% of children under 5): Q3
+817,Prevalence of acute respiratory infection (ARI) (% of children under 5): Q4
+818,Prevalence of acute respiratory infection (ARI) (% of children under 5): Q5 (highest)
+819,Prevalence of diarrhea (% of children under 5): Q1 (lowest)
+820,Prevalence of diarrhea (% of children under 5): Q2
+821,Prevalence of diarrhea (% of children under 5): Q3
+822,Prevalence of diarrhea (% of children under 5): Q4
+823,Prevalence of diarrhea (% of children under 5): Q5 (highest)
+824,Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q1 (lowest)
+825,Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q2
+826,Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q3
+827,Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q4
+828,Teenage pregnancy and motherhood (% of women ages 15-19 who have had children or are currently pregnant): Q5 (highest)
+829, Total fertility rate (TFR) (births per woman): Q1 (lowest)
+830, Total fertility rate (TFR) (births per woman): Q2
+831, Total fertility rate (TFR) (births per woman): Q3
+832, Total fertility rate (TFR) (births per woman): Q4
+833, Total fertility rate (TFR) (births per woman): Q5 (highest)
+834,Total wanted fertility rate (births per woman): Q1 (lowest)
+835,Total wanted fertility rate (births per woman): Q2
+836,Total wanted fertility rate (births per woman): Q3
+837,Total wanted fertility rate (births per woman): Q4
+838,Total wanted fertility rate (births per woman): Q5 (highest)
+839,Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q1 (lowest)
+840,Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q2
+841,Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q3
+842,Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q4
+843,Treatment of acute respiratory infection (ARI) (% of children under 5 taken to a health provider): Q5 (highest)
+844,Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q1 (lowest)
+845,Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q2
+846,Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q3
+847,Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q4
+848,Treatment of diarrhea (either ORS or RHS) (% of children under 5): Q5 (highest)
+849,"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q1 (lowest)"
+850,"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q2"
+851,"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q3"
+852,"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q4"
+853,"Treatment of diarrhea (ORS, RHS or increased fluids) (% of children under 5): Q5 (highest)"
+854,"Under-5 mortality rate (per 1,000 live births): Q1 (lowest)"
+855,"Under-5 mortality rate (per 1,000 live births): Q2"
+856,"Under-5 mortality rate (per 1,000 live births): Q3"
+857,"Under-5 mortality rate (per 1,000 live births): Q4"
+858,"Under-5 mortality rate (per 1,000 live births): Q5 (highest)"
+859,Unmet need for family planning (for limiting) (% of married women): Q1 (lowest)
+860,Unmet need for family planning (for limiting) (% of married women): Q2
+861,Unmet need for family planning (for limiting) (% of married women): Q3
+862,Unmet need for family planning (for limiting) (% of married women): Q4
+863,Unmet need for family planning (for limiting) (% of married women): Q5 (highest)
+864,Unmet need for family planning (for spacing) (% of married women): Q1 (lowest)
+865,Unmet need for family planning (for spacing) (% of married women): Q2
+866,Unmet need for family planning (for spacing) (% of married women): Q3
+867,Unmet need for family planning (for spacing) (% of married women): Q4
+868,Unmet need for family planning (for spacing) (% of married women): Q5 (highest)
+869,Unmet need for family planning (total) (% of married women): Q1 (lowest)
+870,Unmet need for family planning (total) (% of married women): Q2
+871,Unmet need for family planning (total) (% of married women): Q3
+872,Unmet need for family planning (total) (% of married women): Q4
+873,Unmet need for family planning (total) (% of married women): Q5 (highest)
+874,Vaccinations (all vaccinations) (% of children ages 12-23 months): Q1 (lowest)
+875,Vaccinations (all vaccinations) (% of children ages 12-23 months): Q2
+876,Vaccinations (all vaccinations) (% of children ages 12-23 months): Q3
+877,Vaccinations (all vaccinations) (% of children ages 12-23 months): Q4
+878,Vaccinations (all vaccinations) (% of children ages 12-23 months): Q5 (highest)
+879,Vaccinations (BCG) (% of children ages 12-23 months): Q1 (lowest)
+880,Vaccinations (BCG) (% of children ages 12-23 months): Q2
+881,Vaccinations (BCG) (% of children ages 12-23 months): Q3
+882,Vaccinations (BCG) (% of children ages 12-23 months): Q4
+883,Vaccinations (BCG) (% of children ages 12-23 months): Q5 (highest)
+884,Vaccinations (DPT 3) (% of children ages 12-23 months): Q1 (lowest)
+885,Vaccinations (DPT 3) (% of children ages 12-23 months): Q2
+886,Vaccinations (DPT 3) (% of children ages 12-23 months): Q3
+887,Vaccinations (DPT 3) (% of children ages 12-23 months): Q4
+888,Vaccinations (DPT 3) (% of children ages 12-23 months): Q5 (highest)
+889,Vaccinations (Measles) (% of children ages 12-23 months): Q1 (lowest)
+890,Vaccinations (Measles) (% of children ages 12-23 months): Q2
+891,Vaccinations (Measles) (% of children ages 12-23 months): Q3
+892,Vaccinations (Measles) (% of children ages 12-23 months): Q4
+893,Vaccinations (Measles) (% of children ages 12-23 months): Q5 (highest)
+894,Vaccinations (no vaccinations) (% of children ages 12-23 months): Q1 (lowest)
+895,Vaccinations (no vaccinations) (% of children ages 12-23 months): Q2
+896,Vaccinations (no vaccinations) (% of children ages 12-23 months): Q3
+897,Vaccinations (no vaccinations) (% of children ages 12-23 months): Q4
+898,Vaccinations (no vaccinations) (% of children ages 12-23 months): Q5 (highest)
+899,Vitamin A supplements for children (% of children ages 6-59 months): Q1 (lowest)
+900,Vitamin A supplements for children (% of children ages 6-59 months): Q2
+901,Vitamin A supplements for children (% of children ages 6-59 months): Q3
+902,Vitamin A supplements for children (% of children ages 6-59 months): Q4
+903,Vitamin A supplements for children (% of children ages 6-59 months): Q5 (highest)
+904,Vitamin A supplements for postpartum women (% of women with a birth): Q1 (lowest)
+905,Vitamin A supplements for postpartum women (% of women with a birth): Q2
+906,Vitamin A supplements for postpartum women (% of women with a birth): Q3
+907,Vitamin A supplements for postpartum women (% of women with a birth): Q4
+908,Vitamin A supplements for postpartum women (% of women with a birth): Q5 (highest)
+909,Tetanus toxoid vaccination (% of live births): Q1 (lowest)
+910,Tetanus toxoid vaccination (% of live births): Q2
+911,Tetanus toxoid vaccination (% of live births): Q3
+912,Tetanus toxoid vaccination (% of live births): Q4
+913,Tetanus toxoid vaccination (% of live births): Q5 (highest)
+914,Anti-malarial drug use by pregnant women (any antimalarial drug) (% of women with a birth): Q1 (lowest)
+915,Anti-malarial drug use by pregnant women (any antimalarial drug) (% of women with a birth): Q2
+916,Anti-malarial drug use by pregnant women (any antimalarial drug) (% of women with a birth): Q3
+917,Anti-malarial drug use by pregnant women (any antimalarial drug) (% of women with a birth): Q4
+918,Anti-malarial drug use by pregnant women (any antimalarial drug) (% of women with a birth): Q5 (highest)
+919,Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q1 (lowest)
+920,Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q2
+921,Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q3
+922,Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q4
+923,Anti-malarial drug use by pregnant women (SP/Fansidar two or more doses) (% of women with a birth): Q5 (highest)
+924,Household posession of mosquito nets (any type of mosquito net) (% of households): Q1 (lowest)
+925,Household posession of mosquito nets (any type of mosquito net) (% of households): Q2
+926,Household posession of mosquito nets (any type of mosquito net) (% of households): Q3
+927,Household posession of mosquito nets (any type of mosquito net) (% of households): Q4
+928,Household posession of mosquito nets (any type of mosquito net) (% of households): Q5 (highest)
+929,Household posession of mosquito nets (insecticide-treated net) (% of households): Q1 (lowest)
+930,Household posession of mosquito nets (insecticide-treated net) (% of households): Q2
+931,Household posession of mosquito nets (insecticide-treated net) (% of households): Q3
+932,Household posession of mosquito nets (insecticide-treated net) (% of households): Q4
+933,Household posession of mosquito nets (insecticide-treated net) (% of households): Q5 (highest)
+934,Mosquito net use by children (any mosquito net) (% of children under 5): Q1 (lowest)
+935,Mosquito net use by children (any mosquito net) (% of children under 5): Q2
+936,Mosquito net use by children (any mosquito net) (% of children under 5): Q3
+937,Mosquito net use by children (any mosquito net) (% of children under 5): Q4
+938,Mosquito net use by children (any mosquito net) (% of children under 5): Q5 (highest)
+939,Mosquito net use by children (insecticide-treated net) (% of children under 5): Q1 (lowest)
+940,Mosquito net use by children (insecticide-treated net) (% of children under 5): Q2
+941,Mosquito net use by children (insecticide-treated net) (% of children under 5): Q3
+942,Mosquito net use by children (insecticide-treated net) (% of children under 5): Q4
+943,Mosquito net use by children (insecticide-treated net) (% of children under 5): Q5 (highest)
+944,Prevalence of children with fever (% of children under 5): Q1 (lowest)
+945,Prevalence of children with fever (% of children under 5): Q2
+946,Prevalence of children with fever (% of children under 5): Q3
+947,Prevalence of children with fever (% of children under 5): Q4
+948,Prevalence of children with fever (% of children under 5): Q5 (highest)
+949,Treatment of fever (% of children under 5 with fever): Q1 (lowest)
+950,Treatment of fever (% of children under 5 with fever): Q2
+951,Treatment of fever (% of children under 5 with fever): Q3
+952,Treatment of fever (% of children under 5 with fever): Q4
+953,Treatment of fever (% of children under 5 with fever): Q5 (highest)
+954,Breastfeeding (% of children under 6 months): Q1 (lowest)
+955,Breastfeeding (% of children under 6 months): Q2
+956,Breastfeeding (% of children under 6 months): Q3
+957,Breastfeeding (% of children under 6 months): Q4
+958,Breastfeeding (% of children under 6 months): Q5 (highest)
+959,Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q1 (lowest)
+960,Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q2
+961,Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q3
+962,Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q4
+963,Components of antenatal care (received iron tablets or syrup) (% of women with a birth): Q5 (highest)
+964,Fertility planning status (wanted later) (% of births): Q1 (lowest)
+965,Fertility planning status (wanted later) (% of births): Q2
+966,Fertility planning status (wanted later) (% of births): Q3
+967,Fertility planning status (wanted later) (% of births): Q4
+968,Fertility planning status (wanted later) (% of births): Q5 (highest)
+969,Fertility planning status (wanted no more) (% of births): Q1 (lowest)
+970,Fertility planning status (wanted no more) (% of births): Q2
+971,Fertility planning status (wanted no more) (% of births): Q3
+972,Fertility planning status (wanted no more) (% of births): Q4
+973,Fertility planning status (wanted no more) (% of births): Q5 (highest)
+974,Fertility planning status (wanted then) (% of births): Q1 (lowest)
+975,Fertility planning status (wanted then) (% of births): Q2
+976,Fertility planning status (wanted then) (% of births): Q3
+977,Fertility planning status (wanted then) (% of births): Q4
+978,Fertility planning status (wanted then) (% of births): Q5 (highest)
+979,Heard family planning on radio and television (% of women): Q1 (lowest)
+980,Heard family planning on radio and television (% of women): Q2
+981,Heard family planning on radio and television (% of women): Q3
+982,Heard family planning on radio and television (% of women): Q4
+983,Heard family planning on radio and television (% of women): Q5 (highest)
+984,Knowledge of diarrhea care (% of mothers): Q1 (lowest)
+985,Knowledge of diarrhea care (% of mothers): Q2
+986,Knowledge of diarrhea care (% of mothers): Q3
+987,Knowledge of diarrhea care (% of mothers): Q4
+988,Knowledge of diarrhea care (% of mothers): Q5 (highest)
+989,Median age at first sexual intercourse (women ages 25-49): Q1 (lowest)
+990,Median age at first sexual intercourse (women ages 25-49): Q2
+991,Median age at first sexual intercourse (women ages 25-49): Q3
+992,Median age at first sexual intercourse (women ages 25-49): Q4
+993,Median age at first sexual intercourse (women ages 25-49): Q5 (highest)
+994,Problems in accessing health care (any of the specified problems) (% of women): Q1 (lowest)
+995,Problems in accessing health care (any of the specified problems) (% of women): Q2
+996,Problems in accessing health care (any of the specified problems) (% of women): Q3
+997,Problems in accessing health care (any of the specified problems) (% of women): Q4
+998,Problems in accessing health care (any of the specified problems) (% of women): Q5 (highest)
+999,Problems in accessing health care (concern there may not be a female provider) (% of women): Q1 (lowest)
+1000,Problems in accessing health care (concern there may not be a female provider) (% of women): Q2
+1001,Problems in accessing health care (concern there may not be a female provider) (% of women): Q3
+1002,Problems in accessing health care (concern there may not be a female provider) (% of women): Q4
+1003,Problems in accessing health care (concern there may not be a female provider) (% of women): Q5 (highest)
+1004,Problems in accessing health care (distance to health facility) (% of women): Q1 (lowest)
+1005,Problems in accessing health care (distance to health facility) (% of women): Q2
+1006,Problems in accessing health care (distance to health facility) (% of women): Q3
+1007,Problems in accessing health care (distance to health facility) (% of women): Q4
+1008,Problems in accessing health care (distance to health facility) (% of women): Q5 (highest)
+1009,Problems in accessing health care (getting money for treatment) (% of women): Q1 (lowest)
+1010,Problems in accessing health care (getting money for treatment) (% of women): Q2
+1011,Problems in accessing health care (getting money for treatment) (% of women): Q3
+1012,Problems in accessing health care (getting money for treatment) (% of women): Q4
+1013,Problems in accessing health care (getting money for treatment) (% of women): Q5 (highest)
+1014,Problems in accessing health care (getting permission to go for treatment) (% of women): Q1 (lowest)
+1015,Problems in accessing health care (getting permission to go for treatment) (% of women): Q2
+1016,Problems in accessing health care (getting permission to go for treatment) (% of women): Q3
+1017,Problems in accessing health care (getting permission to go for treatment) (% of women): Q4
+1018,Problems in accessing health care (getting permission to go for treatment) (% of women): Q5 (highest)
+1019,Problems in accessing health care (having to take transport) (% of women): Q1 (lowest)
+1020,Problems in accessing health care (having to take transport) (% of women): Q2
+1021,Problems in accessing health care (having to take transport) (% of women): Q3
+1022,Problems in accessing health care (having to take transport) (% of women): Q4
+1023,Problems in accessing health care (having to take transport) (% of women): Q5 (highest)
+1024,Problems in accessing health care (knowing where to go for treatment) (% of women): Q1 (lowest)
+1025,Problems in accessing health care (knowing where to go for treatment) (% of women): Q2
+1026,Problems in accessing health care (knowing where to go for treatment) (% of women): Q3
+1027,Problems in accessing health care (knowing where to go for treatment) (% of women): Q4
+1028,Problems in accessing health care (knowing where to go for treatment) (% of women): Q5 (highest)
+1029,Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest)
+1030,Problems in accessing health care (not wanting to go alone) (% of women): Q2
+1031,Problems in accessing health care (not wanting to go alone) (% of women): Q3
+1032,Problems in accessing health care (not wanting to go alone) (% of women): Q4
+1033,Problems in accessing health care (not wanting to go alone) (% of women): Q5 (highest)
+1034,Smoking (% of women): Q1 (lowest)
+1035,Smoking (% of women): Q2
+1036,Smoking (% of women): Q3
+1037,Smoking (% of women): Q4
+1038,Smoking (% of women): Q5 (highest)
