@@ -1,4 +1,4 @@
-worktaskan/gosu/.ipynb_checkpoints/1-1-checkpoint.ipynb
 *.jsonl
 .ipynb_checkpoints/
-worktaskan/gosu/plots/Thumbs.db
+data/
+__pycache__/
