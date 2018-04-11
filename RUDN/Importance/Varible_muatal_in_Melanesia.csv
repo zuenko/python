@@ -15,12 +15,12 @@ Urban population growth (annual %),1.3529887321407814
 "Population ages 15-64, male (% of total)",1.3414298099982627
 "Population ages 65 and above, female (% of total)",1.339157766901599
 "Population ages 00-04, female (% of female population)",1.3362162574566465
-"Population ages 50-54, female (% of female population)",1.3278667908111879
-"Population ages10-14, male (% of male population)",1.261014286593465
-"Population ages 10-14, female (% of female population)",1.257474217823963
-"Population ages 40-44, male (% of male population)",1.256910001175937
+"Population ages 50-54, female (% of female population)",1.3288191717635687
+"Population ages10-14, male (% of male population)",1.2589734702669344
 "Population ages 45-49, female (% of female population)",1.2565176040625108
+"Population ages 10-14, female (% of female population)",1.2554334014974324
 "Population ages 00-04, male (% of male population)",1.2551771717205247
+"Population ages 40-44, male (% of male population)",1.2548691848494065
 "Population ages 70-74, female (% of female population)",1.2460158292213597
 "Employment to population ratio, 15+, female (%) (modeled ILO estimate)",1.2367480675904554
 "Population ages 45-49, male (% of male population)",1.2301744523773592
@@ -30,41 +30,41 @@ Rural population growth (annual %),1.2265999137803887
 Ratio of female to male labor force participation rate (%) (modeled ILO estimate),1.208490649625561
 "Population ages 75-79, female (% of female population)",1.1968048967200116
 "Population ages 15-64, female (% of total)",1.1960481847067532
-"Mortality rate, adult, female (per 1,000 female adults)",1.1947664748790674
-Population ages 15-64 (% of total),1.1933915497917142
+"Mortality rate, adult, female (per 1,000 female adults)",1.193004570117163
 "Labor force participation rate for ages 15-24, female (%) (modeled ILO estimate)",1.1923758506401851
+"Population ages 40-44, female (% of female population)",1.1920258795078755
+Population ages 15-64 (% of total),1.1913507334651836
 "Employment to population ratio, ages 15-24, male (%) (modeled ILO estimate)",1.1911299761645946
-"Population ages 40-44, female (% of female population)",1.1907271782091746
 "Population ages 05-09, male (% of male population)",1.184747076360089
 "Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",1.1791619280405743
 Age dependency ratio (% of working-age population),1.1783933080707834
 "Population ages 80 and older, female (% of female population)",1.163953052720404
 Urban population,1.1638667436741654
 "Employment to population ratio, 15+, male (%) (modeled ILO estimate)",1.1589287806943813
-"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)",1.1563037676624925
+"Labor force participation rate, male (% of male population ages 15+) (modeled ILO estimate)",1.1550050663637914
 "Population ages 65-69, male (% of male population)",1.1395210644240117
 "Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate)",1.1238515534010978
 "Population ages 15-19, female (% of female population)",1.1212856293704898
-Lifetime risk of maternal death (1 in: rate varies by country),1.1205267375371157
 "Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)",1.1169613235483529
+"Population, male (% of total)",1.1149878863383145
+"Population, female (% of total)",1.1149878863383145
 Population ages 65 and above (% of total),1.1142646877477598
-"Population, male (% of total)",1.1134005847510124
-"Population, female (% of total)",1.1134005847510124
 "Population ages 60-64, female (% of female population)",1.1126346201443307
 "Population ages 55-59, female (% of female population)",1.1113979996947196
 GDP per capita (Current US$),1.1103622043430683
+Lifetime risk of maternal death (1 in: rate varies by country),1.1092172137275913
 "Population ages 15-19, male (% of male population)",1.093855087976893
 "Unemployment, female (% of female labor force) (modeled ILO estimate)",1.0932618822333653
 "Unemployment, female (% of female labor force)",1.0932618822333653
-"Unemployment, total (% of total labor force)",1.0834899734698606
+"Unemployment, total (% of total labor force)",1.08144915714333
 "Population ages 65-69, female (% of female population)",1.0774664999133299
 "Population ages 55-59, male (% of male population)",1.0682239587838533
-"Unemployment, male (% of male labor force)",1.0649371654002446
-"Unemployment, male (% of male labor force) (modeled ILO estimate)",1.0649371654002446
+"Unemployment, male (% of male labor force)",1.0640868252641904
+"Unemployment, male (% of male labor force) (modeled ILO estimate)",1.0640868252641904
 "Employment to population ratio, 15+, total (%) (modeled ILO estimate)",1.0605138852386289
 "Labor force, female (% of total labor force)",1.0558952023697954
-"GNI per capita, Atlas method (current US$)",1.0515444234926792
-Number of under-five deaths,1.0450978191859186
+"GNI per capita, Atlas method (current US$)",1.0526158520641073
+Number of under-five deaths,1.0445876151042863
 Population growth (annual %),1.044246224394445
 Number of infant deaths,1.0439985021937992
 "Population ages 60-64, male (% of male population)",1.0197104205215657
@@ -74,9 +74,9 @@ Number of infant deaths,1.0439985021937992
 Number of neonatal deaths,0.9947274814544327
 "GNI per capita, PPP (current international $)",0.9756694294131436
 "Population ages 35-39, female (% of female population)",0.9239657536633863
-Female population 70-74,0.9214187866802119
-Net official development assistance and official aid received (current US$),0.9104574743054734
-Net official development assistance received (current US$),0.9104574743054734
+Female population 70-74,0.9189171408605934
+Net official development assistance and official aid received (current US$),0.9120159158639147
+Net official development assistance received (current US$),0.9120159158639147
 "Population ages 20-24, female (% of female population)",0.9085057903478191
 "Population ages 0-14, female",0.9055943289487811
 "Age population, age 10, male, interpolated",0.9047316944350121
@@ -89,17 +89,17 @@ Male population 05-09,0.9022143161284959
 "Age population, age 08, male, interpolated",0.8985176200523539
 "Age population, age 07, male, interpolated",0.8972023113265755
 "Age population, age 08, female, interpolated",0.8959289599006373
-Female population 75-79,0.8930314822188337
 Female population 05-09,0.8906434728175772
+Female population 75-79,0.8905704978250761
 "Age population, age 07, female, interpolated",0.889218783376583
 "Age population, age 11, female, interpolated",0.8890666040882269
-Male population 70-74,0.8882984091113049
 "Population ages 65 and above, female",0.8870932505466285
+Male population 70-74,0.8862575927847742
 "Age population, age 06, male, interpolated",0.8847645103724695
 "Age population, age 11, male, interpolated",0.8846066994486725
 "Age population, age 05, male, interpolated",0.8824637149476133
 "Age population, age 06, female, interpolated",0.8810886542089282
-Male population 75-79,0.8802844862449941
+Male population 75-79,0.8782436699184635
 CO2 emissions (kt),0.8774423480753941
 "Population ages 65 and above, total",0.8758176382230358
 "Age population, age 12, female, interpolated",0.8752327914004892
@@ -108,21 +108,21 @@ Male population 10-14,0.8747636853035363
 Female population 10-14,0.8736581407681006
 "Age population, age 12, male, interpolated",0.8713151462119768
 "Age population, age 04, male, interpolated",0.8656476883497477
-"Population ages 65 and above, male",0.8634981806266253
+"Population ages 65 and above, male",0.8638842810127259
 "Age population, age 13, male, interpolated",0.8620524862134318
 "Age population, age 13, female, interpolated",0.8575742206121917
 "Age population, age 04, female, interpolated",0.8571939585047139
 Male population 65-69,0.8535069059076492
 Mobile cellular subscriptions (per 100 people),0.8534835452459311
-Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate),0.850665992474644
+Ratio of female to male youth unemployment rate (% ages 15-24) (modeled ILO estimate),0.8486251761481136
 "Age population, age 03, male, interpolated",0.8423259622208621
 "Age population, age 03, female, interpolated",0.8403006066240779
 "Age population, age 14, male, interpolated",0.8398439066554999
 Female population 65-69,0.8359326932716016
 Female population 00-04,0.8351352289136822
 Male population 00-04,0.8333264108898024
-GDP (current US$),0.8327626575460638
 "Age population, age 14, female, interpolated",0.8309492631085458
+GDP (current US$),0.829423139920832
 "Age population, age 02, male, interpolated",0.8252493660781337
 "Age population, age 02, female, interpolated",0.824206751931025
 GDP per person employed (constant 2011 PPP $),0.822629615191764
@@ -130,18 +130,18 @@ GDP per person employed (constant 2011 PPP $),0.822629615191764
 "Population ages 35-39, male (% of male population)",0.8210476667896578
 Male population 80+,0.8201811230217715
 "Age population, age 01, female, interpolated",0.8165203116513522
-"Maternal mortality ratio (modeled estimate, per 100,000 live births)",0.8161777640393633
 "Population ages 30-34, female (% of female population)",0.8150216046862915
-Number of maternal deaths,0.813949979016682
-"Age population, age 0, female, interpolated",0.8117475027320427
+Number of maternal deaths,0.8131456032123063
+"Maternal mortality ratio (modeled estimate, per 100,000 live births)",0.8123512334271183
+"Age population, age 0, female, interpolated",0.8113506773352173
 "Age population, age 0, male, interpolated",0.810090360230793
 "Age population, age 15, male, interpolated",0.8084585306561767
+"Health expenditure, total (current US$)",0.8030722628153375
 "Age population, age 15, female, interpolated",0.7959247342138018
-"Health expenditure, total (current US$)",0.7958159658632249
 "Age population, age 16, male, interpolated",0.7931649068415509
-Female population 80+,0.7871405096249928
-"Mortality rate, under-5 (per 1,000)",0.783713552974409
+Female population 80+,0.7850996932984622
 "Mortality rate, under-5 (per 1,000 live births)",0.783713552974409
+"Mortality rate, under-5 (per 1,000)",0.7828477521086081
 "Age population, age 16, female, interpolated",0.7801773328656816
 Rural population,0.7790382362229316
 Female population 55-59,0.7738688444713904
@@ -163,9 +163,9 @@ Male population 60-64,0.7521600903156516
 Male population 50-54,0.7412650484591417
 Female population 30-34,0.7383469230794584
 "Age population, age 19, female, interpolated",0.7375355339941785
-"Age population, age 25, female, interpolated",0.7342272062014283
 Female population 60-64,0.7333594873188107
 "Age population, age 24, male, interpolated",0.7327090733651906
+"Age population, age 25, female, interpolated",0.7326146692947739
 "Age population, age 19, male, interpolated",0.731163639508172
 "Population ages 25-29, female (% of female population)",0.7278821137869236
 Male population 20-24,0.7269147472290054
@@ -184,14 +184,14 @@ Female population 20-24,0.719136875602449
 "Age population, age 23, female, interpolated",0.7054101874184264
 "Age population, age 22, male, interpolated",0.705056055871345
 "Age population, age 22, female, interpolated",0.7029074034708678
-Adults (ages 15+) and children (0-14 years) living with HIV,0.6987239405782295
 Male population 30-34,0.6956124715283751
 "Labor force, total",0.6940238778935299
-"Mortality rate, infant (per 1,000 live births)",0.6925507336100798
-Adults (ages 15+) living with HIV,0.68870763235507
-Net ODA received per capita (current US$),0.6580460768978065
-Newborns protected against tetanus (%),0.6574636976111456
-"Mortality rate, adult, male (per 1,000 male adults)",0.6548439932735803
+Adults (ages 15+) and children (0-14 years) living with HIV,0.691286406553586
+"Mortality rate, infant (per 1,000 live births)",0.6894179015298787
+Adults (ages 15+) living with HIV,0.6720731773088908
+Newborns protected against tetanus (%),0.6575060884754493
+Net ODA received per capita (current US$),0.6560052605712758
+"Mortality rate, adult, male (per 1,000 male adults)",0.652231748375621
 Female population 35-39,0.636281775707243
 "Population ages 15-64, male",0.6326537128447918
 Male population 45-49,0.632195221929823
@@ -200,58 +200,58 @@ Male population 45-49,0.632195221929823
 Female population 45-49,0.6254983247526957
 Female population 40-44,0.6215898810117151
 "Population ages 25-29, male (% of male population)",0.6214784171023742
-"Immunization, HepB3 (% of one-year-old children)",0.611719059547873
-Internet users (per 100 people),0.611199547978093
+"Immunization, HepB3 (% of one-year-old children)",0.6145745373167764
+Internet users (per 100 people),0.6091587316515623
 Male population 40-44,0.6083686254624903
 Male population 35-39,0.6004340553688501
 Children (0-14) living with HIV,0.5875221748152448
 "PPP conversion factor, GDP (LCU per international $)",0.5848549977922914
+"Immunization, DPT (% of children ages 12-23 months)",0.5744701257089204
 "Mortality rate, neonatal (per 1,000 live births)",0.5726432898184579
-"Immunization, DPT (% of children ages 12-23 months)",0.5722413997817317
-"Immunization, Pol3 (% of one-year-old children)",0.5711181763940458
-AIDS estimated deaths (UNAIDS estimates),0.5657985344422449
+"Immunization, Pol3 (% of one-year-old children)",0.5696613946349904
+AIDS estimated deaths (UNAIDS estimates),0.5647271058708163
 "PPP conversion factor, private consumption (LCU per international $)",0.5635007387937125
 "Health expenditure per capita, PPP (constant 2011 international $)",0.5594131427533864
 "Health expenditure per capita, PPP",0.5594131427533864
 Prevalence of anemia among children (% of children under 5),0.547504828326991
-Malaria cases reported,0.5442048079461002
-Reported cases of malaria,0.5396260533673456
+Malaria cases reported,0.5468022105435029
+Reported cases of malaria,0.537147553809014
 Fixed telephone subscriptions (per 100 people),0.5317722065503836
-"Immunization, BCG (% of one-year-old children)",0.5305166317702057
-"Time required to start a business, male (days)",0.5270178305117097
-"Incidence of tuberculosis (per 100,000 people)",0.526917683946668
-"Time required to start a business, female (days)",0.526761089337439
-Adults (ages 15+) newly infected with HIV,0.5225395384040374
-Prevalence of anemia among pregnant women (%),0.5184890755650761
-"People using basic drinking water services, rural (% of rural population)",0.5177743186786268
+"Immunization, BCG (% of one-year-old children)",0.5275989339415721
+"Time required to start a business, female (days)",0.5257329099497416
+"Time required to start a business, male (days)",0.5245765022147986
+"Incidence of tuberculosis (per 100,000 people)",0.5243054390487087
+Adults (ages 15+) newly infected with HIV,0.5192062050707036
+Prevalence of anemia among pregnant women (%),0.5188553759313769
+"People using basic drinking water services, rural (% of rural population)",0.5170857505684561
 Children (ages 0-14) newly infected with HIV,0.5149428097358797
+Prevalence of anemia among non-pregnant women (% of women ages 15-49),0.5118139788557197
 Prevalence of anemia among women of reproductive age (% of women ages 15-49),0.511624166928184
-Prevalence of anemia among non-pregnant women (% of women ages 15-49),0.5114380390060957
 "Start-up procedures to register a business, female (number)",0.5076345227847354
 "Start-up procedures to register a business, male (number)",0.5076345227847354
-"Cost of business start-up procedures, male (% of GNI per capita)",0.5023208903361644
 "Cost of business start-up procedures, female (% of GNI per capita)",0.5023208903361644
+"Cost of business start-up procedures, male (% of GNI per capita)",0.5023208903361644
 Health expenditure per capita (current US$),0.5009050964234412
-"People using basic sanitation services, rural (% of rural population)",0.4994089274864517
-Adults (ages 15+) and children (ages 0-14) newly infected with HIV,0.49222120594284724
-Children orphaned by HIV/AIDS,0.4905483351628339
-"Immunization, measles (% of children ages 12-23 months)",0.4856882428146676
-"Tuberculosis death rate (per 100,000 people), including HIV",0.46297415419751986
-"Tuberculosis death rate (per 100,000 people)",0.46297415419751986
-Trade (% of GDP),0.4620693096544948
-Prevalence of undernourishment (% of population),0.45227627276539883
-"People using basic sanitation services, urban  (% of urban population)",0.45067888167654147
+Adults (ages 15+) and children (ages 0-14) newly infected with HIV,0.4886497773714187
+Children orphaned by HIV/AIDS,0.48578643040092917
+"Immunization, measles (% of children ages 12-23 months)",0.48493427456069904
+Trade (% of GDP),0.4630433356285206
+"Tuberculosis death rate (per 100,000 people)",0.46121224943561523
+"Tuberculosis death rate (per 100,000 people), including HIV",0.46121224943561523
+"People using basic sanitation services, rural (% of rural population)",0.4575820326595612
+"People using basic sanitation services, urban  (% of urban population)",0.45425031024797
+Prevalence of undernourishment (% of population),0.45108579657492287
+Forest area (sq. km),0.4505610398969875
 People using safely managed drinking water services (% of population),0.4469264571721858
-Forest area (sq. km),0.44012272033611977
 GDP growth (annual %),0.4347541873483296
-People using basic sanitation services (% of population),0.43282286918139
+People using basic sanitation services (% of population),0.43021062428343093
 Incidence of HIV (% of uninfected population ages 15-49),0.4262459906819176
-"Improved sanitation facilities, rural (% of rural population with access)",0.4201796275520302
-Improved sanitation facilities (% of population with access),0.41951312224859216
-"Adolescent fertility rate (births per 1,000 women ages 15-19)",0.4108626935245816
-Proportion of seats held by women in national parliaments (%),0.4080302151356352
+Improved sanitation facilities (% of population with access),0.4169008773506333
+"Improved sanitation facilities, rural (% of rural population with access)",0.4128771635164836
+"Adolescent fertility rate (births per 1,000 women ages 15-19)",0.40910078876267675
+Proportion of seats held by women in national parliaments (%),0.4021500385035792
 "Inflation, consumer prices (annual %)",0.40050117175412714
-"Improved water source, rural (% of rural population with access)",0.39512814853129585
+"Improved water source, rural (% of rural population with access)",0.39867323064111937
 "Immunization, Hib3 (% of children ages 12-23 months)",0.3854267344912723
 "Health expenditure, public (% of government expenditure)",0.3827377395728866
 "Prevalence of overweight, female (% of female adults)",0.38152854174019213
@@ -262,78 +262,78 @@ Proportion of seats held by women in national parliaments (%),0.4080302151356352
 "Health expenditure, total (% of GDP)",0.3806100799984189
 CO2 emissions (kg per PPP $ of GDP),0.3806100799984189
 Out-of-pocket health expenditure (% of private expenditure on health),0.37736793207542063
-"Total debt service (% of exports of goods, services and primary income)",0.3768559983138815
+"Total debt service (% of exports of goods, services and primary income)",0.3756655221234053
 "Prevalence of overweight, male (% of male adults)",0.37255809618208247
 External resources for health (% of total expenditure on health),0.3693921585114941
 Out-of-pocket health expenditure (% of total expenditure on health),0.3678082793940509
 "Health expenditure, public (% of total health expenditure)",0.3655465095921171
-"People using basic drinking water services, urban (% of urban population)",0.3544119980780842
-"People practicing open defecation, urban (% of urban population)",0.3544119980780842
-Lifetime risk of maternal death (%),0.3544119980780842
-"Debt service (PPG and IMF only, % of exports of goods, services and primary income)",0.3544119980780842
+Improved water source (% of population with access),0.3571103863727101
 "Health expenditure, private (% of total health expenditure)",0.35417483915234826
-Improved water source (% of population with access),0.3537857110480347
-Net ODA received (% of GNI),0.3185197215791544
-People using basic drinking water services (% of population),0.31115656726541396
+"People using basic drinking water services, urban (% of urban population)",0.353221521887608
+"People practicing open defecation, urban (% of urban population)",0.353221521887608
+Lifetime risk of maternal death (%),0.353221521887608
+"Debt service (PPG and IMF only, % of exports of goods, services and primary income)",0.353221521887608
+Net ODA received (% of GNI),0.31473184279127575
+People using basic drinking water services (% of population),0.3134422815511282
 "Access to anti-retroviral drugs, female (%)",0.2972708784460858
-"People practicing open defecation, rural (% of rural population)",0.281448682435234
-"School enrollment, primary, female (% gross)",0.28033928576258527
-"School enrollment, primary (% gross)",0.2798466749251469
-"School enrollment, primary, male (% gross)",0.2793540640877086
+"People practicing open defecation, rural (% of rural population)",0.28587113090180005
+"School enrollment, primary, female (% gross)",0.2839107143340138
+"School enrollment, primary (% gross)",0.2834181034965755
+"School enrollment, primary, male (% gross)",0.28292549265913713
 Antiretroviral therapy coverage (% of people living with HIV),0.27026651708051075
 "Access to anti-retroviral drugs, male (%)",0.2688572299738552
 Women's share of population ages 15+ living with HIV (%),0.25404131366104465
 Vitamin A supplementation coverage rate (% of children ages 6-59 months),0.2524270932673849
 Antiretroviral therapy coverage for PMTCT (% of pregnant women living with HIV),0.2506173989514049
-"Primary completion rate, total (% of relevant age group)",0.2342737971349751
+"Primary completion rate, total (% of relevant age group)",0.23784522570640365
+Gross capital formation (% of GDP),0.23376422546649378
+"Primary education, pupils (% female)",0.23372211776079066
+"School enrollment, primary (gross), gender parity index (GPI)",0.23372211776079066
 "Prevalence of HIV, total (% of population ages 15-49)",0.2337177994290922
 "Prevalence of HIV, male (% ages 15-24)",0.2337177994290922
 "Prevalence of HIV, female (% ages 15-24)",0.2337177994290922
-Gross capital formation (% of GDP),0.23328803499030348
-"Primary education, pupils (% female)",0.2301506891893621
-"School enrollment, primary (gross), gender parity index (GPI)",0.2301506891893621
-"Improved sanitation facilities, urban (% of urban population with access)",0.2280349302368163
 "School enrollment, secondary, female (% gross)",0.22801113030420028
 "School enrollment, secondary, male (% gross)",0.22715480409073163
+"Improved sanitation facilities, urban (% of urban population with access)",0.2229657462706034
 "School enrollment, secondary (% gross)",0.22273799074534617
 "Secondary education, pupils (% female)",0.2103960073319351
 "School enrollment, primary and secondary (gross), gender parity index (GPI)",0.2103960073319351
 "School enrollment, secondary (gross), gender parity index (GPI)",0.2103960073319351
 Number of people who are undernourished,0.15812896381285335
-"Adjusted net enrollment rate, primary (% of primary school age children)",0.15694835155039044
-"School enrollment, primary (% net)",0.15272535232739148
-"Survival to age 65, male (% of cohort)",0.15168201253328895
+"Adjusted net enrollment rate, primary (% of primary school age children)",0.15337692297896188
+"Survival to age 65, male (% of cohort)",0.1499201077713841
+"School enrollment, primary (% net)",0.14915392375596292
 Births attended by skilled health staff (% of total),0.14727993276984375
-"Children out of school, primary, female",0.13826477764909129
-Forest area (% of land area),0.13686606614925512
-"Children out of school, primary, male",0.13516457730856013
-"Primary completion rate, male (% of relevant age group)",0.13313077256670058
-Tuberculosis treatment success rate (% of new cases),0.13155009052705613
-"Primary completion rate, female (% of relevant age group)",0.12864359307952067
-Tuberculosis case detection rate (all forms),0.1271572281460922
+"Children out of school, primary, female",0.13707430145861488
+Forest area (% of land area),0.1346355328789961
+"Primary completion rate, male (% of relevant age group)",0.13360696304289132
+"Children out of school, primary, male",0.13329382900924025
+Tuberculosis treatment success rate (% of new cases),0.13131004200969687
+"Primary completion rate, female (% of relevant age group)",0.1291197835557114
 CO2 emissions (metric tons per capita),0.12556735449184342
-"Adjusted net enrollment rate, primary, female (% of primary school age children)",0.1252079692334256
-"School enrollment, primary, female (% net)",0.1252079692334256
-"Adjusted net enrollment rate, primary, male (% of primary school age children)",0.1252079692334256
-"School enrollment, primary, male (% net)",0.1252079692334256
-"Survival to age 65, female (% of cohort)",0.12516634896917833
-"Tuberculosis case detection rate (%, all forms)",0.1210994572660562
+"Survival to age 65, female (% of cohort)",0.12340444420727348
+"Tuberculosis case detection rate (%, all forms)",0.12229691643969787
+"Adjusted net enrollment rate, primary, female (% of primary school age children)",0.1203893751291174
+"School enrollment, primary, female (% net)",0.1203893751291174
+"Adjusted net enrollment rate, primary, male (% of primary school age children)",0.1203893751291174
+"School enrollment, primary, male (% net)",0.1203893751291174
 "Government expenditure on education, total (% of GDP)",0.11705428563617382
 "Public spending on education, total (% of GDP)",0.11705428563617382
+Tuberculosis case detection rate (all forms),0.11300140084024424
 "Employment to population ratio, 15+, total (%) (national estimate)",0.11172102147731544
-Proportion of women in ministerial level positions (%),0.10531940423503916
 "Primary education, teachers (% female)",0.1023284677824956
+Proportion of women in ministerial level positions (%),0.09972782789158319
 "Secondary education, teachers (% female)",0.09507846923401453
-Sex ratio at birth (male births per female births),0.09193150765985125
-"Lower secondary completion rate, male (% of relevant age group)",0.08296532487704411
-"Lower secondary completion rate, female (% of relevant age group)",0.08296532487704411
+Sex ratio at birth (male births per female births),0.09074103146937507
+"Lower secondary completion rate, male (% of relevant age group)",0.0864285283402475
+"Lower secondary completion rate, female (% of relevant age group)",0.0864285283402475
 "School enrollment, secondary, female (% net)",0.07691571928555052
 "School enrollment, secondary (% net)",0.07691571928555052
 "School enrollment, secondary, male (% net)",0.07691571928555052
 Share of women in wage employment in the nonagricultural sector (% of total nonagricultural employment),0.05448629339395916
 Share of women employed in the nonagricultural sector (% of total nonagricultural employment),0.05448629339395916
-"Birth rate, crude (per 1,000 people)",0.03874657172187135
-"Improved water source, urban (% of urban population with access)",0.012933209995498407
-People practicing open defecation (% of population),0.0032375614755675297
+"Birth rate, crude (per 1,000 people)",0.04174657172187146
+"Improved water source, urban (% of urban population with access)",0.01094454786397936
+People practicing open defecation (% of population),0.005523275761281976
 Region_code,1.7763568394002505e-15
 Reion_sub_code,1.7763568394002505e-15
