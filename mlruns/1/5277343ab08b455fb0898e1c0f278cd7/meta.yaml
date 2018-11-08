@@ -1,0 +1,14 @@
+artifact_uri: ../../mlruns/1/5277343ab08b455fb0898e1c0f278cd7/artifacts
+end_time: 1541238707880
+entry_point_name: ''
+experiment_id: 1
+lifecycle_stage: active
+name: ''
+run_uuid: 5277343ab08b455fb0898e1c0f278cd7
+source_name: validate.py
+source_type: 4
+source_version: c7ebb3dd34812e78882aa45e1260a5afde505291
+start_time: 1541238342801
+status: 4
+tags: []
+user_id: denis
